@@ -1,0 +1,1992 @@
+2024-06-20 00:18:38,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 00:18:38,461 INFO supervisord started with pid 1
+2024-06-20 00:18:39,464 INFO spawned: 'cron' with pid 7
+2024-06-20 00:18:39,466 INFO spawned: 'flask' with pid 8
+2024-06-20 00:18:40,741 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:18:40,741 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:22:51,087 WARN received SIGTERM indicating exit request
+2024-06-20 00:22:51,087 INFO waiting for cron, flask to die
+2024-06-20 00:22:51,091 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 00:22:51,091 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 00:27:39,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 00:27:39,455 INFO supervisord started with pid 1
+2024-06-20 00:27:40,457 INFO spawned: 'cron' with pid 7
+2024-06-20 00:27:40,459 INFO spawned: 'flask' with pid 8
+2024-06-20 00:27:41,778 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:27:41,778 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:33:33,275 WARN received SIGTERM indicating exit request
+2024-06-20 00:33:33,276 INFO waiting for cron, flask to die
+2024-06-20 00:33:33,280 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 00:33:33,281 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 00:36:07,678 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 00:36:07,680 INFO supervisord started with pid 1
+2024-06-20 00:36:08,683 INFO spawned: 'cron' with pid 7
+2024-06-20 00:36:08,685 INFO spawned: 'flask' with pid 8
+2024-06-20 00:36:09,956 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:36:09,957 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:47:40,944 WARN received SIGTERM indicating exit request
+2024-06-20 00:47:40,945 INFO waiting for cron, flask to die
+2024-06-20 00:47:40,949 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 00:47:40,950 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 00:52:14,653 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 00:52:14,655 INFO supervisord started with pid 1
+2024-06-20 00:52:15,657 INFO spawned: 'cron' with pid 7
+2024-06-20 00:52:15,659 INFO spawned: 'flask' with pid 8
+2024-06-20 00:52:15,739 WARN exited: flask (exit status 1; not expected)
+2024-06-20 00:52:16,740 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 00:52:16,742 INFO spawned: 'flask' with pid 9
+2024-06-20 00:52:16,814 WARN exited: flask (exit status 1; not expected)
+2024-06-20 00:52:18,818 INFO spawned: 'flask' with pid 10
+2024-06-20 00:52:18,885 WARN exited: flask (exit status 1; not expected)
+2024-06-20 00:52:21,890 INFO spawned: 'flask' with pid 11
+2024-06-20 00:52:21,947 WARN exited: flask (exit status 1; not expected)
+2024-06-20 00:52:22,948 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 01:16:39,776 WARN received SIGTERM indicating exit request
+2024-06-20 01:16:39,777 INFO waiting for cron to die
+2024-06-20 01:16:40,780 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 01:21:19,778 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 01:21:19,780 INFO supervisord started with pid 1
+2024-06-20 01:21:20,783 INFO spawned: 'cron' with pid 7
+2024-06-20 01:21:20,785 INFO spawned: 'flask' with pid 8
+2024-06-20 01:21:20,867 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:21:21,869 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 01:21:21,870 INFO spawned: 'flask' with pid 9
+2024-06-20 01:21:21,928 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:21:23,930 INFO spawned: 'flask' with pid 10
+2024-06-20 01:21:23,993 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:21:26,998 INFO spawned: 'flask' with pid 11
+2024-06-20 01:21:27,078 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:21:28,079 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 01:24:13,310 WARN received SIGTERM indicating exit request
+2024-06-20 01:24:13,310 INFO waiting for cron to die
+2024-06-20 01:24:14,313 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 01:32:02,531 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 01:32:02,534 INFO supervisord started with pid 1
+2024-06-20 01:32:03,537 INFO spawned: 'cron' with pid 7
+2024-06-20 01:32:03,539 INFO spawned: 'flask' with pid 8
+2024-06-20 01:32:03,694 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:32:04,694 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 01:32:04,696 INFO spawned: 'flask' with pid 9
+2024-06-20 01:32:04,792 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:32:06,796 INFO spawned: 'flask' with pid 10
+2024-06-20 01:32:06,897 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:32:09,902 INFO spawned: 'flask' with pid 11
+2024-06-20 01:32:09,980 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:32:10,981 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 01:35:23,279 WARN received SIGTERM indicating exit request
+2024-06-20 01:35:23,280 INFO waiting for cron to die
+2024-06-20 01:35:24,282 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 01:35:30,969 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 01:35:30,971 INFO supervisord started with pid 1
+2024-06-20 01:35:31,973 INFO spawned: 'cron' with pid 7
+2024-06-20 01:35:31,975 INFO spawned: 'flask' with pid 8
+2024-06-20 01:35:32,027 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:35:33,029 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 01:35:33,030 INFO spawned: 'flask' with pid 9
+2024-06-20 01:35:33,082 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:35:35,087 INFO spawned: 'flask' with pid 10
+2024-06-20 01:35:35,156 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:35:38,163 INFO spawned: 'flask' with pid 17
+2024-06-20 01:35:38,236 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:35:39,238 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 01:36:12,286 WARN received SIGTERM indicating exit request
+2024-06-20 01:36:12,287 INFO waiting for cron to die
+2024-06-20 01:36:13,289 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 01:38:44,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 01:38:44,298 INFO supervisord started with pid 1
+2024-06-20 01:38:45,300 INFO spawned: 'cron' with pid 7
+2024-06-20 01:38:45,302 INFO spawned: 'flask' with pid 8
+2024-06-20 01:38:45,387 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:38:46,388 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 01:38:46,389 INFO spawned: 'flask' with pid 9
+2024-06-20 01:38:46,469 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:38:48,473 INFO spawned: 'flask' with pid 10
+2024-06-20 01:38:48,531 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:38:51,535 INFO spawned: 'flask' with pid 11
+2024-06-20 01:38:51,614 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:38:51,614 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 01:55:20,924 WARN received SIGTERM indicating exit request
+2024-06-20 01:55:20,929 INFO waiting for cron to die
+2024-06-20 01:55:21,932 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 01:56:38,731 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 01:56:38,732 INFO supervisord started with pid 1
+2024-06-20 01:56:39,735 INFO spawned: 'cron' with pid 7
+2024-06-20 01:56:39,736 INFO spawned: 'flask' with pid 8
+2024-06-20 01:56:39,820 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:56:40,820 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 01:56:40,821 INFO spawned: 'flask' with pid 9
+2024-06-20 01:56:40,897 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:56:42,900 INFO spawned: 'flask' with pid 10
+2024-06-20 01:56:42,964 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:56:45,968 INFO spawned: 'flask' with pid 11
+2024-06-20 01:56:46,036 WARN exited: flask (exit status 1; not expected)
+2024-06-20 01:56:47,038 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 02:00:08,327 WARN received SIGTERM indicating exit request
+2024-06-20 02:00:08,327 INFO waiting for cron to die
+2024-06-20 02:00:09,329 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 02:00:15,960 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 02:00:15,962 INFO supervisord started with pid 1
+2024-06-20 02:00:16,964 INFO spawned: 'cron' with pid 7
+2024-06-20 02:00:16,966 INFO spawned: 'flask' with pid 8
+2024-06-20 02:00:17,029 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:00:18,030 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 02:00:18,031 INFO spawned: 'flask' with pid 9
+2024-06-20 02:00:18,103 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:00:20,107 INFO spawned: 'flask' with pid 10
+2024-06-20 02:00:20,153 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:00:23,157 INFO spawned: 'flask' with pid 17
+2024-06-20 02:00:23,205 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:00:24,206 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 02:00:42,229 WARN received SIGTERM indicating exit request
+2024-06-20 02:00:42,229 INFO waiting for cron to die
+2024-06-20 02:00:43,231 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 02:01:53,026 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 02:01:53,028 INFO supervisord started with pid 1
+2024-06-20 02:01:54,030 INFO spawned: 'cron' with pid 7
+2024-06-20 02:01:54,032 INFO spawned: 'flask' with pid 8
+2024-06-20 02:01:54,112 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:01:55,114 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 02:01:55,115 INFO spawned: 'flask' with pid 9
+2024-06-20 02:01:55,192 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:01:57,195 INFO spawned: 'flask' with pid 10
+2024-06-20 02:01:57,255 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:02:00,260 INFO spawned: 'flask' with pid 11
+2024-06-20 02:02:00,338 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:02:01,339 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 02:12:29,140 WARN received SIGTERM indicating exit request
+2024-06-20 02:12:29,143 INFO waiting for cron to die
+2024-06-20 02:12:30,145 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 02:13:43,423 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 02:13:43,424 INFO supervisord started with pid 1
+2024-06-20 02:13:44,426 INFO spawned: 'cron' with pid 7
+2024-06-20 02:13:44,428 INFO spawned: 'flask' with pid 8
+2024-06-20 02:13:44,496 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:13:45,498 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 02:13:45,499 INFO spawned: 'flask' with pid 9
+2024-06-20 02:13:45,574 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:13:47,577 INFO spawned: 'flask' with pid 10
+2024-06-20 02:13:47,657 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:13:50,661 INFO spawned: 'flask' with pid 11
+2024-06-20 02:13:50,731 WARN exited: flask (exit status 1; not expected)
+2024-06-20 02:13:51,732 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 02:17:19,013 WARN received SIGTERM indicating exit request
+2024-06-20 02:17:19,014 INFO waiting for cron to die
+2024-06-20 02:17:20,016 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 09:13:26,513 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 09:13:26,514 INFO supervisord started with pid 1
+2024-06-20 09:13:27,516 INFO spawned: 'cron' with pid 7
+2024-06-20 09:13:27,517 INFO spawned: 'flask' with pid 8
+2024-06-20 09:13:27,601 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:13:28,602 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 09:13:28,603 INFO spawned: 'flask' with pid 9
+2024-06-20 09:13:28,674 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:13:30,677 INFO spawned: 'flask' with pid 10
+2024-06-20 09:13:30,766 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:13:33,770 INFO spawned: 'flask' with pid 11
+2024-06-20 09:13:33,851 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:13:34,851 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 09:18:38,254 WARN received SIGTERM indicating exit request
+2024-06-20 09:18:38,255 INFO waiting for cron to die
+2024-06-20 09:18:39,257 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 09:43:21,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 09:43:21,591 INFO supervisord started with pid 1
+2024-06-20 09:43:22,593 INFO spawned: 'cron' with pid 8
+2024-06-20 09:43:22,596 INFO spawned: 'flask' with pid 9
+2024-06-20 09:43:22,696 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:43:23,698 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 09:43:23,699 INFO spawned: 'flask' with pid 10
+2024-06-20 09:43:23,800 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:43:25,803 INFO spawned: 'flask' with pid 11
+2024-06-20 09:43:25,873 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:43:28,877 INFO spawned: 'flask' with pid 12
+2024-06-20 09:43:28,957 WARN exited: flask (exit status 1; not expected)
+2024-06-20 09:43:28,958 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 10:41:01,215 WARN received SIGTERM indicating exit request
+2024-06-20 10:41:01,217 INFO waiting for cron to die
+2024-06-20 10:41:02,221 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 10:43:06,260 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 10:43:06,261 INFO supervisord started with pid 1
+2024-06-20 10:43:07,263 INFO spawned: 'cron' with pid 7
+2024-06-20 10:43:07,265 INFO spawned: 'flask' with pid 8
+2024-06-20 10:43:07,479 WARN exited: flask (exit status 1; not expected)
+2024-06-20 10:43:08,480 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 10:43:08,481 INFO spawned: 'flask' with pid 9
+2024-06-20 10:43:08,697 WARN exited: flask (exit status 1; not expected)
+2024-06-20 10:43:10,700 INFO spawned: 'flask' with pid 10
+2024-06-20 10:43:10,976 WARN exited: flask (exit status 1; not expected)
+2024-06-20 10:43:13,981 INFO spawned: 'flask' with pid 11
+2024-06-20 10:43:14,113 WARN exited: flask (exit status 1; not expected)
+2024-06-20 10:43:15,115 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-20 10:45:04,265 WARN received SIGTERM indicating exit request
+2024-06-20 10:45:04,265 INFO waiting for cron to die
+2024-06-20 10:45:05,268 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 10:46:23,394 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 10:46:23,397 INFO supervisord started with pid 1
+2024-06-20 10:46:24,400 INFO spawned: 'cron' with pid 7
+2024-06-20 10:46:24,402 INFO spawned: 'flask' with pid 8
+2024-06-20 10:46:25,672 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 10:46:25,672 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 10:55:13,449 WARN received SIGTERM indicating exit request
+2024-06-20 10:55:13,449 INFO waiting for cron, flask to die
+2024-06-20 10:55:13,453 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 10:55:13,455 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 12:13:00,904 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 12:13:00,906 INFO supervisord started with pid 1
+2024-06-20 12:13:01,909 INFO spawned: 'cron' with pid 7
+2024-06-20 12:13:01,910 INFO spawned: 'flask' with pid 8
+2024-06-20 12:13:03,275 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 12:13:03,275 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 12:22:52,448 WARN received SIGTERM indicating exit request
+2024-06-20 12:22:52,449 INFO waiting for cron, flask to die
+2024-06-20 12:22:52,453 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 12:22:52,454 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 13:09:43,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 13:09:43,595 INFO supervisord started with pid 1
+2024-06-20 13:09:44,597 INFO spawned: 'cron' with pid 7
+2024-06-20 13:09:44,599 INFO spawned: 'flask' with pid 8
+2024-06-20 13:09:45,994 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:09:45,995 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:13:50,346 WARN received SIGTERM indicating exit request
+2024-06-20 13:13:50,349 INFO waiting for cron, flask to die
+2024-06-20 13:13:50,353 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 13:13:50,354 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 13:17:37,947 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 13:17:37,950 INFO supervisord started with pid 1
+2024-06-20 13:17:38,954 INFO spawned: 'cron' with pid 8
+2024-06-20 13:17:38,956 INFO spawned: 'flask' with pid 9
+2024-06-20 13:17:40,502 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:17:40,502 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:54:07,708 WARN received SIGTERM indicating exit request
+2024-06-20 13:54:07,709 INFO waiting for cron, flask to die
+2024-06-20 13:54:07,714 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 13:54:07,716 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 13:54:20,280 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 13:54:20,284 INFO supervisord started with pid 1
+2024-06-20 13:54:21,286 INFO spawned: 'cron' with pid 7
+2024-06-20 13:54:21,287 INFO spawned: 'flask' with pid 8
+2024-06-20 13:54:22,519 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:54:22,519 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:54:39,839 WARN received SIGTERM indicating exit request
+2024-06-20 13:54:39,839 INFO waiting for cron, flask to die
+2024-06-20 13:54:39,841 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 13:54:39,842 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 13:55:46,817 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 13:55:46,818 INFO supervisord started with pid 1
+2024-06-20 13:55:47,820 INFO spawned: 'cron' with pid 7
+2024-06-20 13:55:47,821 INFO spawned: 'flask' with pid 8
+2024-06-20 13:55:49,004 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 13:55:49,004 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:05:07,706 WARN received SIGTERM indicating exit request
+2024-06-20 14:05:07,707 INFO waiting for cron, flask to die
+2024-06-20 14:05:07,713 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:05:07,714 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:05:30,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:05:30,136 INFO supervisord started with pid 1
+2024-06-20 14:05:31,139 INFO spawned: 'cron' with pid 7
+2024-06-20 14:05:31,140 INFO spawned: 'flask' with pid 8
+2024-06-20 14:05:32,338 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:05:32,338 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:20:49,354 WARN received SIGTERM indicating exit request
+2024-06-20 14:20:49,355 INFO waiting for cron, flask to die
+2024-06-20 14:20:49,359 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:20:49,361 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:21:04,277 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:21:04,278 INFO supervisord started with pid 1
+2024-06-20 14:21:05,281 INFO spawned: 'cron' with pid 7
+2024-06-20 14:21:05,282 INFO spawned: 'flask' with pid 8
+2024-06-20 14:21:06,455 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:21:06,455 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:21:22,479 WARN received SIGTERM indicating exit request
+2024-06-20 14:21:22,480 INFO waiting for cron, flask to die
+2024-06-20 14:21:22,484 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:21:22,485 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:22:33,542 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:22:33,543 INFO supervisord started with pid 1
+2024-06-20 14:22:34,546 INFO spawned: 'cron' with pid 7
+2024-06-20 14:22:34,547 INFO spawned: 'flask' with pid 8
+2024-06-20 14:22:35,733 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:22:35,733 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:28:00,747 WARN received SIGTERM indicating exit request
+2024-06-20 14:28:00,748 INFO waiting for cron, flask to die
+2024-06-20 14:28:00,753 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:28:00,754 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:30:52,774 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:30:52,775 INFO supervisord started with pid 1
+2024-06-20 14:30:53,778 INFO spawned: 'cron' with pid 8
+2024-06-20 14:30:53,780 INFO spawned: 'flask' with pid 9
+2024-06-20 14:30:55,017 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:30:55,017 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:35:20,902 WARN received SIGTERM indicating exit request
+2024-06-20 14:35:20,902 INFO waiting for cron, flask to die
+2024-06-20 14:35:20,904 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:35:20,905 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:35:37,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:35:37,907 INFO supervisord started with pid 1
+2024-06-20 14:35:38,910 INFO spawned: 'cron' with pid 7
+2024-06-20 14:35:38,912 INFO spawned: 'flask' with pid 8
+2024-06-20 14:35:40,089 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:35:40,089 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:55:22,613 WARN received SIGTERM indicating exit request
+2024-06-20 14:55:22,614 INFO waiting for cron, flask to die
+2024-06-20 14:55:22,619 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:55:22,621 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 14:55:30,198 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 14:55:30,201 INFO supervisord started with pid 1
+2024-06-20 14:55:31,204 INFO spawned: 'cron' with pid 7
+2024-06-20 14:55:31,205 INFO spawned: 'flask' with pid 8
+2024-06-20 14:55:32,495 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:55:32,495 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 14:57:33,966 WARN received SIGTERM indicating exit request
+2024-06-20 14:57:33,966 INFO waiting for cron, flask to die
+2024-06-20 14:57:33,971 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 14:57:33,972 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 15:03:57,000 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 15:03:57,002 INFO supervisord started with pid 1
+2024-06-20 15:03:58,005 INFO spawned: 'cron' with pid 7
+2024-06-20 15:03:58,006 INFO spawned: 'flask' with pid 8
+2024-06-20 15:03:59,343 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 15:03:59,343 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 15:09:09,513 WARN received SIGTERM indicating exit request
+2024-06-20 15:09:09,514 INFO waiting for cron, flask to die
+2024-06-20 15:09:09,519 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 15:09:09,520 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 15:12:50,545 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 15:12:50,546 INFO supervisord started with pid 1
+2024-06-20 15:12:51,549 INFO spawned: 'cron' with pid 7
+2024-06-20 15:12:51,550 INFO spawned: 'flask' with pid 8
+2024-06-20 15:12:52,728 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 15:12:52,728 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 15:14:15,776 WARN received SIGTERM indicating exit request
+2024-06-20 15:14:15,777 INFO waiting for cron, flask to die
+2024-06-20 15:14:15,781 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 15:14:15,782 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:12:51,816 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:12:51,821 INFO supervisord started with pid 1
+2024-06-20 17:12:52,825 INFO spawned: 'cron' with pid 7
+2024-06-20 17:12:52,827 INFO spawned: 'flask' with pid 8
+2024-06-20 17:12:54,172 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:12:54,172 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:18:02,839 WARN received SIGTERM indicating exit request
+2024-06-20 17:18:02,839 INFO waiting for cron, flask to die
+2024-06-20 17:18:02,844 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:18:02,845 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:18:09,273 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:18:09,275 INFO supervisord started with pid 1
+2024-06-20 17:18:10,279 INFO spawned: 'cron' with pid 7
+2024-06-20 17:18:10,280 INFO spawned: 'flask' with pid 8
+2024-06-20 17:18:11,467 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:18:11,467 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:19:06,737 WARN received SIGTERM indicating exit request
+2024-06-20 17:19:06,738 INFO waiting for cron, flask to die
+2024-06-20 17:19:06,739 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:19:06,740 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:20:31,684 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:20:31,685 INFO supervisord started with pid 1
+2024-06-20 17:20:32,688 INFO spawned: 'cron' with pid 7
+2024-06-20 17:20:32,689 INFO spawned: 'flask' with pid 8
+2024-06-20 17:20:33,874 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:20:33,874 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:23:23,680 WARN received SIGTERM indicating exit request
+2024-06-20 17:23:23,680 INFO waiting for cron, flask to die
+2024-06-20 17:23:23,684 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:23:23,685 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:23:30,233 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:23:30,234 INFO supervisord started with pid 1
+2024-06-20 17:23:31,237 INFO spawned: 'cron' with pid 7
+2024-06-20 17:23:31,238 INFO spawned: 'flask' with pid 8
+2024-06-20 17:23:32,474 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:23:32,474 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:24:18,670 WARN received SIGTERM indicating exit request
+2024-06-20 17:24:18,670 INFO waiting for cron, flask to die
+2024-06-20 17:24:18,674 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:24:18,675 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:24:23,733 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:24:23,735 INFO supervisord started with pid 1
+2024-06-20 17:24:24,739 INFO spawned: 'cron' with pid 7
+2024-06-20 17:24:24,741 INFO spawned: 'flask' with pid 8
+2024-06-20 17:24:25,934 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:24:25,934 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:28:57,739 WARN received SIGTERM indicating exit request
+2024-06-20 17:28:57,740 INFO waiting for cron, flask to die
+2024-06-20 17:28:57,745 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:28:57,747 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:29:02,032 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:29:02,033 INFO supervisord started with pid 1
+2024-06-20 17:29:03,036 INFO spawned: 'cron' with pid 7
+2024-06-20 17:29:03,037 INFO spawned: 'flask' with pid 8
+2024-06-20 17:29:04,225 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:29:04,225 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:31:17,989 WARN received SIGTERM indicating exit request
+2024-06-20 17:31:17,990 INFO waiting for cron, flask to die
+2024-06-20 17:31:17,994 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:31:17,996 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:31:22,419 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:31:22,421 INFO supervisord started with pid 1
+2024-06-20 17:31:23,424 INFO spawned: 'cron' with pid 7
+2024-06-20 17:31:23,425 INFO spawned: 'flask' with pid 8
+2024-06-20 17:31:25,391 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:31:25,391 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:33:09,781 WARN received SIGTERM indicating exit request
+2024-06-20 17:33:09,782 INFO waiting for cron, flask to die
+2024-06-20 17:33:09,786 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:33:09,788 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 17:33:15,696 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 17:33:15,697 INFO supervisord started with pid 1
+2024-06-20 17:33:16,700 INFO spawned: 'cron' with pid 7
+2024-06-20 17:33:16,702 INFO spawned: 'flask' with pid 8
+2024-06-20 17:33:17,911 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:33:17,911 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 17:51:58,427 WARN received SIGTERM indicating exit request
+2024-06-20 17:51:58,428 INFO waiting for cron, flask to die
+2024-06-20 17:51:58,432 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 17:51:58,433 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 18:01:16,611 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 18:01:16,614 INFO supervisord started with pid 1
+2024-06-20 18:01:17,617 INFO spawned: 'cron' with pid 7
+2024-06-20 18:01:17,618 INFO spawned: 'flask' with pid 8
+2024-06-20 18:01:19,029 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 18:01:19,029 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 18:21:10,536 WARN received SIGTERM indicating exit request
+2024-06-20 18:21:10,537 INFO waiting for cron, flask to die
+2024-06-20 18:21:10,540 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 18:21:10,540 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 18:21:55,926 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 18:21:55,929 INFO supervisord started with pid 1
+2024-06-20 18:21:56,931 INFO spawned: 'cron' with pid 7
+2024-06-20 18:21:56,933 INFO spawned: 'flask' with pid 8
+2024-06-20 18:21:58,225 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 18:21:58,226 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 18:53:32,086 WARN received SIGTERM indicating exit request
+2024-06-20 18:53:32,087 INFO waiting for cron, flask to die
+2024-06-20 18:53:32,091 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 18:53:32,093 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 18:53:37,290 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 18:53:37,292 INFO supervisord started with pid 1
+2024-06-20 18:53:38,297 INFO spawned: 'cron' with pid 7
+2024-06-20 18:53:38,301 INFO spawned: 'flask' with pid 8
+2024-06-20 18:53:39,753 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 18:53:39,753 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 20:10:06,379 WARN received SIGTERM indicating exit request
+2024-06-20 20:10:06,380 INFO waiting for cron, flask to die
+2024-06-20 20:10:06,383 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 20:10:06,384 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 21:51:41,358 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 21:51:41,362 INFO supervisord started with pid 1
+2024-06-20 21:51:42,372 INFO spawned: 'cron' with pid 7
+2024-06-20 21:51:42,373 INFO spawned: 'flask' with pid 8
+2024-06-20 21:51:43,809 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 21:51:43,809 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:36:37,685 WARN received SIGTERM indicating exit request
+2024-06-20 23:36:37,686 INFO waiting for cron, flask to die
+2024-06-20 23:36:37,690 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 23:36:37,691 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 23:36:55,434 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 23:36:55,436 INFO supervisord started with pid 1
+2024-06-20 23:36:56,439 INFO spawned: 'cron' with pid 7
+2024-06-20 23:36:56,441 INFO spawned: 'flask' with pid 8
+2024-06-20 23:36:57,760 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:36:57,761 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:44:47,479 WARN received SIGTERM indicating exit request
+2024-06-20 23:44:47,480 INFO waiting for cron, flask to die
+2024-06-20 23:44:47,485 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 23:44:47,486 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 23:44:55,075 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 23:44:55,077 INFO supervisord started with pid 1
+2024-06-20 23:44:56,080 INFO spawned: 'cron' with pid 7
+2024-06-20 23:44:56,083 INFO spawned: 'flask' with pid 8
+2024-06-20 23:44:57,479 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:44:57,479 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:47:32,412 WARN received SIGTERM indicating exit request
+2024-06-20 23:47:32,412 INFO waiting for cron, flask to die
+2024-06-20 23:47:32,414 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 23:47:32,415 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 23:47:37,837 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 23:47:37,839 INFO supervisord started with pid 1
+2024-06-20 23:47:38,842 INFO spawned: 'cron' with pid 7
+2024-06-20 23:47:38,843 INFO spawned: 'flask' with pid 8
+2024-06-20 23:47:40,088 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:47:40,088 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:49:13,844 WARN received SIGTERM indicating exit request
+2024-06-20 23:49:13,845 INFO waiting for cron, flask to die
+2024-06-20 23:49:13,850 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 23:49:13,852 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 23:49:19,647 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 23:49:19,648 INFO supervisord started with pid 1
+2024-06-20 23:49:20,651 INFO spawned: 'cron' with pid 7
+2024-06-20 23:49:20,652 INFO spawned: 'flask' with pid 8
+2024-06-20 23:49:21,872 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:49:21,875 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:53:41,375 WARN received SIGTERM indicating exit request
+2024-06-20 23:53:41,389 INFO waiting for cron, flask to die
+2024-06-20 23:53:41,393 WARN stopped: flask (terminated by SIGTERM)
+2024-06-20 23:53:41,395 WARN stopped: cron (terminated by SIGTERM)
+2024-06-20 23:53:48,332 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-20 23:53:48,334 INFO supervisord started with pid 1
+2024-06-20 23:53:49,337 INFO spawned: 'cron' with pid 7
+2024-06-20 23:53:49,339 INFO spawned: 'flask' with pid 8
+2024-06-20 23:53:50,577 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-20 23:53:50,577 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 00:01:31,643 WARN received SIGTERM indicating exit request
+2024-06-21 00:01:31,644 INFO waiting for cron, flask to die
+2024-06-21 00:01:31,646 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 00:01:31,647 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 00:01:46,717 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 00:01:46,719 INFO supervisord started with pid 1
+2024-06-21 00:01:47,722 INFO spawned: 'cron' with pid 7
+2024-06-21 00:01:47,724 INFO spawned: 'flask' with pid 8
+2024-06-21 00:01:48,984 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 00:01:48,984 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 00:19:15,619 WARN received SIGTERM indicating exit request
+2024-06-21 00:19:15,620 INFO waiting for cron, flask to die
+2024-06-21 00:19:15,622 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 00:19:15,622 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 00:19:21,571 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 00:19:21,574 INFO supervisord started with pid 1
+2024-06-21 00:19:22,577 INFO spawned: 'cron' with pid 7
+2024-06-21 00:19:22,578 INFO spawned: 'flask' with pid 8
+2024-06-21 00:19:23,851 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 00:19:23,852 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 01:15:39,594 WARN received SIGTERM indicating exit request
+2024-06-21 01:15:39,595 INFO waiting for cron, flask to die
+2024-06-21 01:15:39,600 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 01:15:39,601 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 01:15:58,683 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 01:15:58,685 INFO supervisord started with pid 1
+2024-06-21 01:15:59,688 INFO spawned: 'cron' with pid 7
+2024-06-21 01:15:59,690 INFO spawned: 'flask' with pid 8
+2024-06-21 01:16:01,085 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 01:16:01,086 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 01:49:15,152 WARN received SIGTERM indicating exit request
+2024-06-21 01:49:15,152 INFO waiting for cron, flask to die
+2024-06-21 01:49:15,154 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 01:49:15,154 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 10:36:55,111 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 10:36:55,116 INFO supervisord started with pid 1
+2024-06-21 10:36:56,119 INFO spawned: 'cron' with pid 7
+2024-06-21 10:36:56,121 INFO spawned: 'flask' with pid 8
+2024-06-21 10:36:57,870 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 10:36:57,870 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 10:50:24,809 WARN received SIGTERM indicating exit request
+2024-06-21 10:50:24,809 INFO waiting for cron, flask to die
+2024-06-21 10:50:24,811 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 10:50:24,811 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 13:10:01,988 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 13:10:01,989 INFO supervisord started with pid 1
+2024-06-21 13:10:02,994 INFO spawned: 'cron' with pid 7
+2024-06-21 13:10:02,995 INFO spawned: 'flask' with pid 8
+2024-06-21 13:10:04,504 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 13:10:04,504 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:12:56,207 WARN received SIGTERM indicating exit request
+2024-06-21 14:12:56,207 INFO waiting for cron, flask to die
+2024-06-21 14:12:56,211 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 14:12:56,212 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 14:13:03,230 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 14:13:03,233 INFO supervisord started with pid 1
+2024-06-21 14:13:04,238 INFO spawned: 'cron' with pid 7
+2024-06-21 14:13:04,240 INFO spawned: 'flask' with pid 8
+2024-06-21 14:13:05,609 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:13:05,609 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:17:54,101 WARN received SIGTERM indicating exit request
+2024-06-21 14:17:54,102 INFO waiting for cron, flask to die
+2024-06-21 14:17:54,107 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 14:17:54,108 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 14:17:59,955 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 14:17:59,956 INFO supervisord started with pid 1
+2024-06-21 14:18:00,959 INFO spawned: 'cron' with pid 7
+2024-06-21 14:18:00,960 INFO spawned: 'flask' with pid 8
+2024-06-21 14:18:02,188 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:18:02,188 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:52:31,258 WARN received SIGTERM indicating exit request
+2024-06-21 14:52:31,258 INFO waiting for cron, flask to die
+2024-06-21 14:52:31,262 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 14:52:31,263 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 14:52:36,357 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 14:52:36,359 INFO supervisord started with pid 1
+2024-06-21 14:52:37,361 INFO spawned: 'cron' with pid 7
+2024-06-21 14:52:37,363 INFO spawned: 'flask' with pid 8
+2024-06-21 14:52:38,630 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 14:52:38,630 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:28:44,210 WARN received SIGTERM indicating exit request
+2024-06-21 15:28:44,210 INFO waiting for cron, flask to die
+2024-06-21 15:28:44,213 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:28:44,213 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:28:51,586 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:28:51,589 INFO supervisord started with pid 1
+2024-06-21 15:28:52,591 INFO spawned: 'cron' with pid 7
+2024-06-21 15:28:52,592 INFO spawned: 'flask' with pid 8
+2024-06-21 15:28:53,856 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:28:53,857 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:30:19,430 WARN received SIGTERM indicating exit request
+2024-06-21 15:30:19,433 INFO waiting for cron, flask to die
+2024-06-21 15:30:19,438 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:30:19,439 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:30:24,430 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:30:24,432 INFO supervisord started with pid 1
+2024-06-21 15:30:25,435 INFO spawned: 'cron' with pid 7
+2024-06-21 15:30:25,436 INFO spawned: 'flask' with pid 8
+2024-06-21 15:30:26,703 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:30:26,703 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:31:52,913 WARN received SIGTERM indicating exit request
+2024-06-21 15:31:52,916 INFO waiting for cron, flask to die
+2024-06-21 15:31:52,921 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:31:52,922 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:31:58,011 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:31:58,014 INFO supervisord started with pid 1
+2024-06-21 15:31:59,016 INFO spawned: 'cron' with pid 7
+2024-06-21 15:31:59,018 INFO spawned: 'flask' with pid 8
+2024-06-21 15:32:00,296 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:32:00,296 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:32:46,061 WARN received SIGTERM indicating exit request
+2024-06-21 15:32:46,062 INFO waiting for cron, flask to die
+2024-06-21 15:32:46,065 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:32:46,066 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:32:51,327 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:32:51,328 INFO supervisord started with pid 1
+2024-06-21 15:32:52,331 INFO spawned: 'cron' with pid 7
+2024-06-21 15:32:52,332 INFO spawned: 'flask' with pid 8
+2024-06-21 15:32:53,534 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:32:53,534 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:34:04,215 WARN received SIGTERM indicating exit request
+2024-06-21 15:34:04,216 INFO waiting for cron, flask to die
+2024-06-21 15:34:04,220 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:34:04,222 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:34:08,597 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:34:08,598 INFO supervisord started with pid 1
+2024-06-21 15:34:09,601 INFO spawned: 'cron' with pid 7
+2024-06-21 15:34:09,604 INFO spawned: 'flask' with pid 8
+2024-06-21 15:34:10,913 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:34:10,913 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:36:02,795 WARN received SIGTERM indicating exit request
+2024-06-21 15:36:02,795 INFO waiting for cron, flask to die
+2024-06-21 15:36:02,798 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 15:36:02,798 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 15:36:08,535 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 15:36:08,537 INFO supervisord started with pid 1
+2024-06-21 15:36:09,539 INFO spawned: 'cron' with pid 7
+2024-06-21 15:36:09,541 INFO spawned: 'flask' with pid 8
+2024-06-21 15:36:10,739 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 15:36:10,739 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 16:12:43,814 WARN received SIGTERM indicating exit request
+2024-06-21 16:12:43,818 INFO waiting for cron, flask to die
+2024-06-21 16:12:43,824 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 16:12:43,826 WARN stopped: cron (terminated by SIGTERM)
+2024-06-21 16:24:16,833 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-21 16:24:16,838 INFO supervisord started with pid 1
+2024-06-21 16:24:17,841 INFO spawned: 'cron' with pid 7
+2024-06-21 16:24:17,843 INFO spawned: 'flask' with pid 8
+2024-06-21 16:24:19,598 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 16:24:19,598 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-21 18:00:34,780 WARN received SIGTERM indicating exit request
+2024-06-21 18:00:34,783 INFO waiting for cron, flask to die
+2024-06-21 18:00:34,788 WARN stopped: flask (terminated by SIGTERM)
+2024-06-21 18:00:34,789 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 07:56:29,232 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 07:56:29,237 INFO supervisord started with pid 1
+2024-06-22 07:56:30,239 INFO spawned: 'cron' with pid 7
+2024-06-22 07:56:30,241 INFO spawned: 'flask' with pid 8
+2024-06-22 07:56:31,748 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 07:56:31,748 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 08:18:52,231 WARN received SIGTERM indicating exit request
+2024-06-22 08:18:52,232 INFO waiting for cron, flask to die
+2024-06-22 08:18:52,236 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 08:18:52,237 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 08:18:59,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 08:18:59,138 INFO supervisord started with pid 1
+2024-06-22 08:19:00,140 INFO spawned: 'cron' with pid 7
+2024-06-22 08:19:00,142 INFO spawned: 'flask' with pid 8
+2024-06-22 08:19:01,432 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 08:19:01,433 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 10:01:56,371 WARN received SIGTERM indicating exit request
+2024-06-22 10:01:56,375 INFO waiting for cron, flask to die
+2024-06-22 10:01:56,378 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 10:01:56,380 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 14:08:54,498 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 14:08:54,500 INFO supervisord started with pid 1
+2024-06-22 14:08:55,504 INFO spawned: 'cron' with pid 7
+2024-06-22 14:08:55,505 INFO spawned: 'flask' with pid 8
+2024-06-22 14:08:55,929 WARN exited: flask (exit status 1; not expected)
+2024-06-22 14:08:56,931 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 14:08:56,931 INFO spawned: 'flask' with pid 9
+2024-06-22 14:08:57,135 WARN exited: flask (exit status 1; not expected)
+2024-06-22 14:08:59,141 INFO spawned: 'flask' with pid 10
+2024-06-22 14:08:59,381 WARN exited: flask (exit status 1; not expected)
+2024-06-22 14:09:02,390 INFO spawned: 'flask' with pid 14
+2024-06-22 14:09:02,668 WARN exited: flask (exit status 1; not expected)
+2024-06-22 14:09:03,669 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 16:21:42,726 WARN received SIGTERM indicating exit request
+2024-06-22 16:21:42,733 INFO waiting for cron to die
+2024-06-22 16:21:43,738 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 16:23:40,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 16:23:40,457 INFO supervisord started with pid 1
+2024-06-22 16:23:41,459 INFO spawned: 'cron' with pid 7
+2024-06-22 16:23:41,461 INFO spawned: 'flask' with pid 8
+2024-06-22 16:23:41,851 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:23:42,852 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 16:23:42,855 INFO spawned: 'flask' with pid 9
+2024-06-22 16:23:43,183 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:23:45,187 INFO spawned: 'flask' with pid 10
+2024-06-22 16:23:45,361 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:23:48,367 INFO spawned: 'flask' with pid 11
+2024-06-22 16:23:48,554 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:23:49,556 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 16:33:24,373 WARN received SIGTERM indicating exit request
+2024-06-22 16:33:24,373 INFO waiting for cron to die
+2024-06-22 16:33:25,376 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 16:33:31,195 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 16:33:31,198 INFO supervisord started with pid 1
+2024-06-22 16:33:32,200 INFO spawned: 'cron' with pid 7
+2024-06-22 16:33:32,201 INFO spawned: 'flask' with pid 8
+2024-06-22 16:33:32,468 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:33:33,470 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 16:33:33,473 INFO spawned: 'flask' with pid 9
+2024-06-22 16:33:33,671 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:33:35,677 INFO spawned: 'flask' with pid 10
+2024-06-22 16:33:35,880 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:33:38,886 INFO spawned: 'flask' with pid 11
+2024-06-22 16:33:39,154 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:33:40,157 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 16:41:02,795 WARN received SIGTERM indicating exit request
+2024-06-22 16:41:02,795 INFO waiting for cron to die
+2024-06-22 16:41:03,797 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 16:47:28,590 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 16:47:28,593 INFO supervisord started with pid 1
+2024-06-22 16:47:29,596 INFO spawned: 'cron' with pid 7
+2024-06-22 16:47:29,597 INFO spawned: 'flask' with pid 8
+2024-06-22 16:47:29,933 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:47:30,935 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 16:47:30,937 INFO spawned: 'flask' with pid 9
+2024-06-22 16:47:31,130 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:47:33,136 INFO spawned: 'flask' with pid 10
+2024-06-22 16:47:33,331 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:47:36,338 INFO spawned: 'flask' with pid 11
+2024-06-22 16:47:36,598 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:47:37,600 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 16:53:14,027 WARN received SIGTERM indicating exit request
+2024-06-22 16:53:14,027 INFO waiting for cron to die
+2024-06-22 16:53:15,029 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 16:56:21,952 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 16:56:21,953 INFO supervisord started with pid 1
+2024-06-22 16:56:22,956 INFO spawned: 'cron' with pid 7
+2024-06-22 16:56:22,957 INFO spawned: 'flask' with pid 8
+2024-06-22 16:56:23,187 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:56:24,189 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 16:56:24,192 INFO spawned: 'flask' with pid 9
+2024-06-22 16:56:24,439 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:56:26,444 INFO spawned: 'flask' with pid 10
+2024-06-22 16:56:26,655 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:56:29,659 INFO spawned: 'flask' with pid 11
+2024-06-22 16:56:29,920 WARN exited: flask (exit status 1; not expected)
+2024-06-22 16:56:30,921 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:01:53,349 WARN received SIGTERM indicating exit request
+2024-06-22 17:01:53,349 INFO waiting for cron to die
+2024-06-22 17:01:54,351 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:02:14,417 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:02:14,418 INFO supervisord started with pid 1
+2024-06-22 17:02:15,420 INFO spawned: 'cron' with pid 6
+2024-06-22 17:02:15,421 INFO spawned: 'flask' with pid 7
+2024-06-22 17:02:15,612 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:02:16,614 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:02:16,617 INFO spawned: 'flask' with pid 8
+2024-06-22 17:02:16,807 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:02:18,812 INFO spawned: 'flask' with pid 9
+2024-06-22 17:02:18,992 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:02:21,996 INFO spawned: 'flask' with pid 10
+2024-06-22 17:02:22,232 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:02:23,233 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:02:37,252 WARN received SIGTERM indicating exit request
+2024-06-22 17:02:37,252 INFO waiting for cron to die
+2024-06-22 17:02:38,254 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:03:24,677 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:03:24,678 INFO supervisord started with pid 1
+2024-06-22 17:03:25,680 INFO spawned: 'flask' with pid 7
+2024-06-22 17:03:25,894 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:03:26,899 INFO spawned: 'flask' with pid 8
+2024-06-22 17:03:27,099 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:03:29,104 INFO spawned: 'flask' with pid 9
+2024-06-22 17:03:29,439 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:03:32,444 INFO spawned: 'flask' with pid 10
+2024-06-22 17:03:32,704 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:03:33,706 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:03:45,725 WARN received SIGTERM indicating exit request
+2024-06-22 17:06:46,860 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:06:46,862 INFO supervisord started with pid 1
+2024-06-22 17:06:47,864 INFO spawned: 'cron' with pid 7
+2024-06-22 17:06:47,866 INFO spawned: 'flask' with pid 8
+2024-06-22 17:06:48,128 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:06:49,130 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:06:49,132 INFO spawned: 'flask' with pid 9
+2024-06-22 17:06:49,365 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:06:51,370 INFO spawned: 'flask' with pid 10
+2024-06-22 17:06:51,602 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:06:54,607 INFO spawned: 'flask' with pid 11
+2024-06-22 17:06:54,874 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:06:55,874 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:09:41,105 WARN received SIGTERM indicating exit request
+2024-06-22 17:09:41,106 INFO waiting for cron to die
+2024-06-22 17:09:42,108 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:14:58,521 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:14:58,522 INFO supervisord started with pid 1
+2024-06-22 17:14:59,524 INFO spawned: 'cron' with pid 7
+2024-06-22 17:14:59,525 INFO spawned: 'flask' with pid 8
+2024-06-22 17:14:59,716 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:15:00,717 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:15:00,719 INFO spawned: 'flask' with pid 9
+2024-06-22 17:15:00,976 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:15:02,981 INFO spawned: 'flask' with pid 13
+2024-06-22 17:15:03,239 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:15:06,245 INFO spawned: 'flask' with pid 14
+2024-06-22 17:15:06,469 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:15:07,470 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:15:10,474 WARN received SIGTERM indicating exit request
+2024-06-22 17:15:10,475 INFO waiting for cron to die
+2024-06-22 17:15:11,477 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:22:48,986 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:22:48,988 INFO supervisord started with pid 1
+2024-06-22 17:22:49,991 INFO spawned: 'cron' with pid 7
+2024-06-22 17:22:49,992 INFO spawned: 'flask' with pid 8
+2024-06-22 17:22:50,230 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:22:51,231 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:22:51,233 INFO spawned: 'flask' with pid 9
+2024-06-22 17:22:51,503 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:22:53,507 INFO spawned: 'flask' with pid 10
+2024-06-22 17:22:53,703 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:22:56,708 INFO spawned: 'flask' with pid 11
+2024-06-22 17:22:57,187 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:22:58,188 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:27:11,498 WARN received SIGTERM indicating exit request
+2024-06-22 17:27:11,498 INFO waiting for cron to die
+2024-06-22 17:27:12,499 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:28:12,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:28:12,300 INFO supervisord started with pid 1
+2024-06-22 17:28:13,302 INFO spawned: 'cron' with pid 7
+2024-06-22 17:28:13,303 INFO spawned: 'flask' with pid 8
+2024-06-22 17:28:13,530 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:28:14,531 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:28:14,533 INFO spawned: 'flask' with pid 9
+2024-06-22 17:28:14,754 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:28:16,758 INFO spawned: 'flask' with pid 10
+2024-06-22 17:28:16,953 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:28:19,957 INFO spawned: 'flask' with pid 11
+2024-06-22 17:28:20,251 WARN exited: flask (exit status 1; not expected)
+2024-06-22 17:28:21,252 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-22 17:49:43,951 WARN received SIGTERM indicating exit request
+2024-06-22 17:49:43,951 INFO waiting for cron to die
+2024-06-22 17:49:44,954 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 17:55:56,636 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 17:55:56,638 INFO supervisord started with pid 1
+2024-06-22 17:55:57,640 INFO spawned: 'cron' with pid 7
+2024-06-22 17:55:57,642 INFO spawned: 'flask' with pid 8
+2024-06-22 17:55:58,841 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 17:55:58,841 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 19:13:03,865 WARN received SIGTERM indicating exit request
+2024-06-22 19:13:03,867 INFO waiting for cron, flask to die
+2024-06-22 19:13:03,870 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 19:13:03,871 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 19:44:31,772 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 19:44:31,776 INFO supervisord started with pid 1
+2024-06-22 19:44:32,783 INFO spawned: 'cron' with pid 7
+2024-06-22 19:44:32,784 INFO spawned: 'flask' with pid 8
+2024-06-22 19:44:34,344 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 19:44:34,344 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 19:53:20,052 WARN received SIGTERM indicating exit request
+2024-06-22 19:53:20,052 INFO waiting for cron, flask to die
+2024-06-22 19:53:20,056 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 19:53:20,057 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 19:53:26,673 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 19:53:26,674 INFO supervisord started with pid 1
+2024-06-22 19:53:27,677 INFO spawned: 'cron' with pid 7
+2024-06-22 19:53:27,679 INFO spawned: 'flask' with pid 8
+2024-06-22 19:53:28,967 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 19:53:28,967 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 19:53:38,981 WARN received SIGTERM indicating exit request
+2024-06-22 19:53:38,981 INFO waiting for cron, flask to die
+2024-06-22 19:53:38,985 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 19:53:38,986 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 22:14:09,014 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 22:14:09,018 INFO supervisord started with pid 1
+2024-06-22 22:14:10,022 INFO spawned: 'cron' with pid 7
+2024-06-22 22:14:10,023 INFO spawned: 'flask' with pid 8
+2024-06-22 22:14:11,383 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:14:11,383 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:27:27,662 WARN received SIGTERM indicating exit request
+2024-06-22 22:27:27,662 INFO waiting for cron, flask to die
+2024-06-22 22:27:27,665 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 22:27:27,666 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 22:27:32,746 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 22:27:32,748 INFO supervisord started with pid 1
+2024-06-22 22:27:33,750 INFO spawned: 'cron' with pid 7
+2024-06-22 22:27:33,751 INFO spawned: 'flask' with pid 8
+2024-06-22 22:27:34,938 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:27:34,938 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:36:20,915 WARN received SIGTERM indicating exit request
+2024-06-22 22:36:20,916 INFO waiting for cron, flask to die
+2024-06-22 22:36:20,920 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 22:36:20,922 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 22:36:28,199 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 22:36:28,204 INFO supervisord started with pid 1
+2024-06-22 22:36:29,207 INFO spawned: 'cron' with pid 7
+2024-06-22 22:36:29,208 INFO spawned: 'flask' with pid 8
+2024-06-22 22:36:30,478 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:36:30,479 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:44:28,256 WARN received SIGTERM indicating exit request
+2024-06-22 22:44:28,258 INFO waiting for cron, flask to die
+2024-06-22 22:44:28,260 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 22:44:28,260 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 22:44:34,152 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 22:44:34,154 INFO supervisord started with pid 1
+2024-06-22 22:44:35,158 INFO spawned: 'cron' with pid 7
+2024-06-22 22:44:35,160 INFO spawned: 'flask' with pid 8
+2024-06-22 22:44:36,625 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 22:44:36,625 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:05:55,403 WARN received SIGTERM indicating exit request
+2024-06-22 23:05:55,404 INFO waiting for cron, flask to die
+2024-06-22 23:05:55,408 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 23:05:55,409 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 23:06:02,564 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 23:06:02,567 INFO supervisord started with pid 1
+2024-06-22 23:06:03,568 INFO spawned: 'cron' with pid 7
+2024-06-22 23:06:03,570 INFO spawned: 'flask' with pid 8
+2024-06-22 23:06:04,814 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:06:04,815 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:16:29,621 WARN received SIGTERM indicating exit request
+2024-06-22 23:16:29,623 INFO waiting for cron, flask to die
+2024-06-22 23:16:29,625 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 23:16:29,626 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 23:20:48,551 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 23:20:48,555 INFO supervisord started with pid 1
+2024-06-22 23:20:49,557 INFO spawned: 'cron' with pid 7
+2024-06-22 23:20:49,558 INFO spawned: 'flask' with pid 8
+2024-06-22 23:20:50,896 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:20:50,896 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:20:57,904 WARN received SIGTERM indicating exit request
+2024-06-22 23:20:57,904 INFO waiting for cron, flask to die
+2024-06-22 23:20:57,906 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 23:20:57,906 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 23:21:03,709 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 23:21:03,711 INFO supervisord started with pid 1
+2024-06-22 23:21:04,714 INFO spawned: 'cron' with pid 7
+2024-06-22 23:21:04,716 INFO spawned: 'flask' with pid 8
+2024-06-22 23:21:05,959 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:21:05,960 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:48:15,791 WARN received SIGTERM indicating exit request
+2024-06-22 23:48:15,792 INFO waiting for cron, flask to die
+2024-06-22 23:48:15,797 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 23:48:15,798 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 23:48:25,146 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 23:48:25,148 INFO supervisord started with pid 1
+2024-06-22 23:48:26,151 INFO spawned: 'cron' with pid 7
+2024-06-22 23:48:26,152 INFO spawned: 'flask' with pid 8
+2024-06-22 23:48:27,411 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:48:27,412 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:58:08,808 WARN received SIGTERM indicating exit request
+2024-06-22 23:58:08,809 INFO waiting for cron, flask to die
+2024-06-22 23:58:08,814 WARN stopped: flask (terminated by SIGTERM)
+2024-06-22 23:58:08,815 WARN stopped: cron (terminated by SIGTERM)
+2024-06-22 23:58:15,093 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-22 23:58:15,096 INFO supervisord started with pid 1
+2024-06-22 23:58:16,098 INFO spawned: 'cron' with pid 7
+2024-06-22 23:58:16,100 INFO spawned: 'flask' with pid 8
+2024-06-22 23:58:17,342 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-22 23:58:17,342 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 00:18:54,205 WARN received SIGTERM indicating exit request
+2024-06-23 00:18:54,205 INFO waiting for cron, flask to die
+2024-06-23 00:18:54,208 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 00:18:54,208 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 09:24:23,377 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 09:24:23,382 INFO supervisord started with pid 1
+2024-06-23 09:24:24,388 INFO spawned: 'cron' with pid 7
+2024-06-23 09:24:24,390 INFO spawned: 'flask' with pid 8
+2024-06-23 09:24:25,783 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 09:24:25,783 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 13:02:23,409 WARN received SIGTERM indicating exit request
+2024-06-23 13:02:23,413 INFO waiting for cron, flask to die
+2024-06-23 13:02:23,415 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 13:02:23,416 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 14:12:24,034 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 14:12:24,038 INFO supervisord started with pid 1
+2024-06-23 14:12:25,128 INFO spawned: 'cron' with pid 7
+2024-06-23 14:12:25,132 INFO spawned: 'flask' with pid 8
+2024-06-23 14:12:26,135 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 14:12:26,135 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:18:49,570 WARN received SIGTERM indicating exit request
+2024-06-23 18:18:49,570 INFO waiting for cron, flask to die
+2024-06-23 18:18:49,573 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 18:18:49,574 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 18:18:59,751 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 18:18:59,753 INFO supervisord started with pid 1
+2024-06-23 18:19:00,756 INFO spawned: 'cron' with pid 7
+2024-06-23 18:19:00,757 INFO spawned: 'flask' with pid 8
+2024-06-23 18:19:02,054 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:19:02,055 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:50:31,157 WARN received SIGTERM indicating exit request
+2024-06-23 18:50:31,159 INFO waiting for cron, flask to die
+2024-06-23 18:50:31,160 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 18:50:31,161 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 18:51:19,283 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 18:51:19,285 INFO supervisord started with pid 1
+2024-06-23 18:51:20,287 INFO spawned: 'cron' with pid 7
+2024-06-23 18:51:20,288 INFO spawned: 'flask' with pid 8
+2024-06-23 18:51:21,515 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:51:21,515 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:52:08,585 WARN received SIGTERM indicating exit request
+2024-06-23 18:52:08,586 INFO waiting for cron, flask to die
+2024-06-23 18:52:08,589 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 18:52:08,590 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 18:52:53,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 18:52:53,800 INFO supervisord started with pid 1
+2024-06-23 18:52:54,802 INFO spawned: 'cron' with pid 7
+2024-06-23 18:52:54,803 INFO spawned: 'flask' with pid 8
+2024-06-23 18:52:56,077 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 18:52:56,077 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 19:29:22,635 WARN received SIGTERM indicating exit request
+2024-06-23 19:29:22,635 INFO waiting for cron, flask to die
+2024-06-23 19:29:22,641 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 19:29:22,642 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 20:13:57,514 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 20:13:57,518 INFO supervisord started with pid 1
+2024-06-23 20:13:58,523 INFO spawned: 'cron' with pid 7
+2024-06-23 20:13:58,524 INFO spawned: 'flask' with pid 8
+2024-06-23 20:14:00,091 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 20:14:00,091 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 21:39:31,977 WARN received SIGTERM indicating exit request
+2024-06-23 21:39:31,981 INFO waiting for cron, flask to die
+2024-06-23 21:39:31,984 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 21:39:31,985 WARN stopped: cron (terminated by SIGTERM)
+2024-06-23 22:49:40,692 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-23 22:49:40,694 INFO supervisord started with pid 1
+2024-06-23 22:49:41,697 INFO spawned: 'cron' with pid 7
+2024-06-23 22:49:41,698 INFO spawned: 'flask' with pid 8
+2024-06-23 22:49:43,010 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 22:49:43,010 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-23 23:28:52,151 WARN received SIGTERM indicating exit request
+2024-06-23 23:28:52,155 INFO waiting for cron, flask to die
+2024-06-23 23:28:52,158 WARN stopped: flask (terminated by SIGTERM)
+2024-06-23 23:28:52,159 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 14:50:45,898 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 14:50:45,903 INFO supervisord started with pid 1
+2024-06-24 14:50:46,909 INFO spawned: 'cron' with pid 7
+2024-06-24 14:50:46,911 INFO spawned: 'flask' with pid 8
+2024-06-24 14:50:48,305 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 14:50:48,305 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:21:10,574 WARN received SIGTERM indicating exit request
+2024-06-24 15:21:10,575 INFO waiting for cron, flask to die
+2024-06-24 15:21:10,578 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:21:10,579 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:21:28,127 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:21:28,130 INFO supervisord started with pid 1
+2024-06-24 15:21:29,133 INFO spawned: 'cron' with pid 7
+2024-06-24 15:21:29,136 INFO spawned: 'flask' with pid 8
+2024-06-24 15:21:30,325 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:21:30,326 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:24:00,534 WARN received SIGTERM indicating exit request
+2024-06-24 15:24:00,537 INFO waiting for cron, flask to die
+2024-06-24 15:24:00,538 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:24:00,539 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:24:41,438 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:24:41,441 INFO supervisord started with pid 1
+2024-06-24 15:24:42,443 INFO spawned: 'cron' with pid 7
+2024-06-24 15:24:42,445 INFO spawned: 'flask' with pid 8
+2024-06-24 15:24:43,667 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:24:43,668 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:38:29,781 WARN received SIGTERM indicating exit request
+2024-06-24 15:38:29,782 INFO waiting for cron, flask to die
+2024-06-24 15:38:29,784 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:38:29,785 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:39:47,985 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:39:47,988 INFO supervisord started with pid 1
+2024-06-24 15:39:48,990 INFO spawned: 'cron' with pid 7
+2024-06-24 15:39:48,992 INFO spawned: 'flask' with pid 8
+2024-06-24 15:39:50,182 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:39:50,182 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:42:48,440 WARN received SIGTERM indicating exit request
+2024-06-24 15:42:48,440 INFO waiting for cron, flask to die
+2024-06-24 15:42:48,443 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:42:48,444 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:42:56,646 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:42:56,648 INFO supervisord started with pid 1
+2024-06-24 15:42:57,650 INFO spawned: 'cron' with pid 7
+2024-06-24 15:42:57,651 INFO spawned: 'flask' with pid 8
+2024-06-24 15:42:58,834 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:42:58,835 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:44:34,970 WARN received SIGTERM indicating exit request
+2024-06-24 15:44:34,970 INFO waiting for cron, flask to die
+2024-06-24 15:44:34,976 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:44:34,977 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:44:42,462 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:44:42,463 INFO supervisord started with pid 1
+2024-06-24 15:44:43,466 INFO spawned: 'cron' with pid 7
+2024-06-24 15:44:43,467 INFO spawned: 'flask' with pid 8
+2024-06-24 15:44:44,647 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:44:44,647 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:46:55,831 WARN received SIGTERM indicating exit request
+2024-06-24 15:46:55,832 INFO waiting for cron, flask to die
+2024-06-24 15:46:55,837 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:46:55,838 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:47:04,354 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:47:04,356 INFO supervisord started with pid 1
+2024-06-24 15:47:05,359 INFO spawned: 'cron' with pid 7
+2024-06-24 15:47:05,360 INFO spawned: 'flask' with pid 8
+2024-06-24 15:47:06,556 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:47:06,556 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:48:40,704 WARN received SIGTERM indicating exit request
+2024-06-24 15:48:40,704 INFO waiting for cron, flask to die
+2024-06-24 15:48:40,706 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:48:40,706 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:49:07,274 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:49:07,275 INFO supervisord started with pid 1
+2024-06-24 15:49:08,278 INFO spawned: 'cron' with pid 7
+2024-06-24 15:49:08,280 INFO spawned: 'flask' with pid 8
+2024-06-24 15:49:09,468 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:49:09,468 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:50:46,638 WARN received SIGTERM indicating exit request
+2024-06-24 15:50:46,639 INFO waiting for cron, flask to die
+2024-06-24 15:50:46,643 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:50:46,644 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:51:18,578 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:51:18,580 INFO supervisord started with pid 1
+2024-06-24 15:51:19,582 INFO spawned: 'cron' with pid 7
+2024-06-24 15:51:19,584 INFO spawned: 'flask' with pid 8
+2024-06-24 15:51:20,776 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:51:20,777 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:57:39,290 WARN received SIGTERM indicating exit request
+2024-06-24 15:57:39,294 INFO waiting for cron, flask to die
+2024-06-24 15:57:39,299 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 15:57:39,300 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 15:57:48,225 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 15:57:48,228 INFO supervisord started with pid 1
+2024-06-24 15:57:49,232 INFO spawned: 'cron' with pid 7
+2024-06-24 15:57:49,234 INFO spawned: 'flask' with pid 8
+2024-06-24 15:57:50,593 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 15:57:50,593 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:02:32,953 WARN received SIGTERM indicating exit request
+2024-06-24 16:02:32,953 INFO waiting for cron, flask to die
+2024-06-24 16:02:32,957 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:02:32,957 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 16:02:40,491 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 16:02:40,496 INFO supervisord started with pid 1
+2024-06-24 16:02:41,500 INFO spawned: 'cron' with pid 7
+2024-06-24 16:02:41,502 INFO spawned: 'flask' with pid 8
+2024-06-24 16:02:42,716 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:02:42,716 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:05:46,966 WARN received SIGTERM indicating exit request
+2024-06-24 16:05:46,966 INFO waiting for cron, flask to die
+2024-06-24 16:05:46,970 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:05:46,971 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 16:05:55,206 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 16:05:55,208 INFO supervisord started with pid 1
+2024-06-24 16:05:56,211 INFO spawned: 'cron' with pid 8
+2024-06-24 16:05:56,213 INFO spawned: 'flask' with pid 9
+2024-06-24 16:05:57,425 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:05:57,425 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:09:38,716 WARN received SIGTERM indicating exit request
+2024-06-24 16:09:38,716 INFO waiting for cron, flask to die
+2024-06-24 16:09:38,721 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:09:38,722 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 16:13:52,173 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 16:13:52,175 INFO supervisord started with pid 1
+2024-06-24 16:13:53,177 INFO spawned: 'cron' with pid 7
+2024-06-24 16:13:53,179 INFO spawned: 'flask' with pid 8
+2024-06-24 16:13:54,365 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:13:54,365 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:18:11,725 WARN received SIGTERM indicating exit request
+2024-06-24 16:18:11,726 INFO waiting for cron, flask to die
+2024-06-24 16:18:11,730 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:18:11,731 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 16:18:24,060 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 16:18:24,062 INFO supervisord started with pid 1
+2024-06-24 16:18:25,065 INFO spawned: 'cron' with pid 7
+2024-06-24 16:18:25,066 INFO spawned: 'flask' with pid 8
+2024-06-24 16:18:26,247 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:18:26,248 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:19:58,392 WARN received SIGTERM indicating exit request
+2024-06-24 16:19:58,392 INFO waiting for cron, flask to die
+2024-06-24 16:19:58,395 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:19:58,396 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 16:24:28,408 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 16:24:28,409 INFO supervisord started with pid 1
+2024-06-24 16:24:29,412 INFO spawned: 'cron' with pid 7
+2024-06-24 16:24:29,413 INFO spawned: 'flask' with pid 8
+2024-06-24 16:24:30,597 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:24:30,598 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 16:26:36,774 WARN received SIGTERM indicating exit request
+2024-06-24 16:26:36,774 INFO waiting for cron, flask to die
+2024-06-24 16:26:36,780 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 16:26:36,781 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 22:46:04,858 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 22:46:04,861 INFO supervisord started with pid 1
+2024-06-24 22:46:05,864 INFO spawned: 'cron' with pid 7
+2024-06-24 22:46:05,866 INFO spawned: 'flask' with pid 8
+2024-06-24 22:46:07,181 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 22:46:07,182 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 23:37:40,264 WARN received SIGTERM indicating exit request
+2024-06-24 23:37:40,266 INFO waiting for cron, flask to die
+2024-06-24 23:37:40,269 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 23:37:40,271 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 23:42:20,745 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 23:42:20,747 INFO supervisord started with pid 1
+2024-06-24 23:42:21,749 INFO spawned: 'cron' with pid 7
+2024-06-24 23:42:21,750 INFO spawned: 'flask' with pid 8
+2024-06-24 23:42:22,930 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 23:42:22,930 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 23:55:31,030 WARN received SIGTERM indicating exit request
+2024-06-24 23:55:31,031 INFO waiting for cron, flask to die
+2024-06-24 23:55:31,032 WARN stopped: flask (terminated by SIGTERM)
+2024-06-24 23:55:31,033 WARN stopped: cron (terminated by SIGTERM)
+2024-06-24 23:59:35,541 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-24 23:59:35,546 INFO supervisord started with pid 1
+2024-06-24 23:59:36,549 INFO spawned: 'cron' with pid 7
+2024-06-24 23:59:36,550 INFO spawned: 'flask' with pid 8
+2024-06-24 23:59:37,854 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-24 23:59:37,854 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 00:41:24,263 WARN received SIGTERM indicating exit request
+2024-06-25 00:41:24,264 INFO waiting for cron, flask to die
+2024-06-25 00:41:24,267 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 00:41:24,269 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 01:06:53,653 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 01:06:53,655 INFO supervisord started with pid 1
+2024-06-25 01:06:54,658 INFO spawned: 'cron' with pid 7
+2024-06-25 01:06:54,659 INFO spawned: 'flask' with pid 8
+2024-06-25 01:06:56,138 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:06:56,138 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:18:59,135 WARN received SIGTERM indicating exit request
+2024-06-25 01:18:59,139 INFO waiting for cron, flask to die
+2024-06-25 01:18:59,143 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 01:18:59,144 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 01:19:07,546 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 01:19:07,549 INFO supervisord started with pid 1
+2024-06-25 01:19:08,552 INFO spawned: 'cron' with pid 7
+2024-06-25 01:19:08,553 INFO spawned: 'flask' with pid 8
+2024-06-25 01:19:09,888 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:19:09,888 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:20:43,009 WARN received SIGTERM indicating exit request
+2024-06-25 01:20:43,009 INFO waiting for cron, flask to die
+2024-06-25 01:20:43,012 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 01:20:43,012 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 01:20:56,027 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 01:20:56,029 INFO supervisord started with pid 1
+2024-06-25 01:20:57,032 INFO spawned: 'cron' with pid 7
+2024-06-25 01:20:57,033 INFO spawned: 'flask' with pid 8
+2024-06-25 01:20:58,216 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:20:58,216 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 01:29:38,954 WARN received SIGTERM indicating exit request
+2024-06-25 01:29:38,954 INFO waiting for cron, flask to die
+2024-06-25 01:29:38,958 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 01:29:38,959 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 10:55:51,053 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 10:55:51,056 INFO supervisord started with pid 1
+2024-06-25 10:55:52,058 INFO spawned: 'cron' with pid 8
+2024-06-25 10:55:52,059 INFO spawned: 'flask' with pid 9
+2024-06-25 10:55:53,420 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 10:55:53,421 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 11:16:26,505 WARN received SIGTERM indicating exit request
+2024-06-25 11:16:26,506 INFO waiting for cron, flask to die
+2024-06-25 11:16:26,511 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 11:16:26,512 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 12:55:50,286 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 12:55:50,291 INFO supervisord started with pid 1
+2024-06-25 12:55:51,294 INFO spawned: 'cron' with pid 7
+2024-06-25 12:55:51,295 INFO spawned: 'flask' with pid 8
+2024-06-25 12:55:52,690 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 12:55:52,691 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 13:33:55,770 WARN received SIGTERM indicating exit request
+2024-06-25 13:33:55,773 INFO waiting for cron, flask to die
+2024-06-25 13:33:55,777 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 13:33:55,778 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 13:35:09,205 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 13:35:09,209 INFO supervisord started with pid 1
+2024-06-25 13:35:10,214 INFO spawned: 'cron' with pid 7
+2024-06-25 13:35:10,216 INFO spawned: 'flask' with pid 8
+2024-06-25 13:35:11,415 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 13:35:11,418 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:34:51,510 WARN received SIGTERM indicating exit request
+2024-06-25 14:34:51,513 INFO waiting for cron, flask to die
+2024-06-25 14:34:51,517 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 14:34:51,518 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 14:35:00,633 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 14:35:00,636 INFO supervisord started with pid 1
+2024-06-25 14:35:01,639 INFO spawned: 'cron' with pid 7
+2024-06-25 14:35:01,641 INFO spawned: 'flask' with pid 8
+2024-06-25 14:35:02,990 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:35:02,990 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:38:01,628 WARN received SIGTERM indicating exit request
+2024-06-25 14:38:01,632 INFO waiting for cron, flask to die
+2024-06-25 14:38:01,636 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 14:38:01,638 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 14:48:41,682 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 14:48:41,687 INFO supervisord started with pid 1
+2024-06-25 14:48:42,684 INFO spawned: 'cron' with pid 7
+2024-06-25 14:48:42,686 INFO spawned: 'flask' with pid 8
+2024-06-25 14:48:44,309 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:48:44,309 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:50:40,039 WARN received SIGTERM indicating exit request
+2024-06-25 14:50:40,039 INFO waiting for cron, flask to die
+2024-06-25 14:50:40,042 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 14:50:40,043 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 14:50:47,042 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 14:50:47,044 INFO supervisord started with pid 1
+2024-06-25 14:50:48,050 INFO spawned: 'cron' with pid 7
+2024-06-25 14:50:48,052 INFO spawned: 'flask' with pid 8
+2024-06-25 14:50:49,266 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:50:49,266 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:52:07,656 WARN received SIGTERM indicating exit request
+2024-06-25 14:52:07,656 INFO waiting for cron, flask to die
+2024-06-25 14:52:07,660 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 14:52:07,661 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 14:52:13,473 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 14:52:13,474 INFO supervisord started with pid 1
+2024-06-25 14:52:14,477 INFO spawned: 'cron' with pid 7
+2024-06-25 14:52:14,479 INFO spawned: 'flask' with pid 8
+2024-06-25 14:52:15,669 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 14:52:15,669 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 15:16:55,223 WARN received SIGTERM indicating exit request
+2024-06-25 15:16:55,223 INFO waiting for cron, flask to die
+2024-06-25 15:16:55,225 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 15:16:55,226 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 15:17:05,044 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 15:17:05,047 INFO supervisord started with pid 1
+2024-06-25 15:17:06,050 INFO spawned: 'cron' with pid 7
+2024-06-25 15:17:06,051 INFO spawned: 'flask' with pid 8
+2024-06-25 15:17:07,267 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 15:17:07,267 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 15:27:49,211 WARN received SIGTERM indicating exit request
+2024-06-25 15:27:49,214 INFO waiting for cron, flask to die
+2024-06-25 15:27:49,216 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 15:27:49,217 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 15:32:49,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 15:32:49,300 INFO supervisord started with pid 1
+2024-06-25 15:32:50,303 INFO spawned: 'cron' with pid 7
+2024-06-25 15:32:50,304 INFO spawned: 'flask' with pid 8
+2024-06-25 15:32:51,495 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 15:32:51,495 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:05:53,207 WARN received SIGTERM indicating exit request
+2024-06-25 16:05:53,207 INFO waiting for cron, flask to die
+2024-06-25 16:05:53,211 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 16:05:53,212 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 16:23:38,755 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 16:23:38,758 INFO supervisord started with pid 1
+2024-06-25 16:23:39,762 INFO spawned: 'cron' with pid 7
+2024-06-25 16:23:39,764 INFO spawned: 'flask' with pid 8
+2024-06-25 16:23:41,141 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:23:41,141 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:23:52,158 WARN received SIGTERM indicating exit request
+2024-06-25 16:23:52,158 INFO waiting for cron, flask to die
+2024-06-25 16:23:52,160 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 16:23:52,161 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 16:25:19,344 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 16:25:19,346 INFO supervisord started with pid 1
+2024-06-25 16:25:20,348 INFO spawned: 'cron' with pid 7
+2024-06-25 16:25:20,350 INFO spawned: 'flask' with pid 8
+2024-06-25 16:25:21,547 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:25:21,547 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:53:37,341 WARN received SIGTERM indicating exit request
+2024-06-25 16:53:37,341 INFO waiting for cron, flask to die
+2024-06-25 16:53:37,345 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 16:53:37,346 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 16:53:46,142 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 16:53:46,144 INFO supervisord started with pid 1
+2024-06-25 16:53:47,147 INFO spawned: 'cron' with pid 7
+2024-06-25 16:53:47,148 INFO spawned: 'flask' with pid 8
+2024-06-25 16:53:48,338 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 16:53:48,340 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 17:07:32,651 WARN received SIGTERM indicating exit request
+2024-06-25 17:07:32,652 INFO waiting for cron, flask to die
+2024-06-25 17:07:32,656 WARN stopped: flask (terminated by SIGTERM)
+2024-06-25 17:07:32,657 WARN stopped: cron (terminated by SIGTERM)
+2024-06-25 21:02:06,465 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-25 21:02:06,469 INFO supervisord started with pid 1
+2024-06-25 21:02:07,472 INFO spawned: 'cron' with pid 7
+2024-06-25 21:02:07,475 INFO spawned: 'flask' with pid 8
+2024-06-25 21:02:09,165 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-25 21:02:09,165 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 05:10:27,941 WARN received SIGTERM indicating exit request
+2024-06-26 05:10:27,945 INFO waiting for cron, flask to die
+2024-06-26 05:10:27,951 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 05:10:27,954 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 05:10:38,101 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 05:10:38,103 INFO supervisord started with pid 1
+2024-06-26 05:10:39,107 INFO spawned: 'cron' with pid 7
+2024-06-26 05:10:39,109 INFO spawned: 'flask' with pid 8
+2024-06-26 05:10:39,305 WARN exited: flask (exit status 1; not expected)
+2024-06-26 05:10:40,307 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 05:10:40,308 INFO spawned: 'flask' with pid 9
+2024-06-26 05:10:40,551 WARN exited: flask (exit status 1; not expected)
+2024-06-26 05:10:42,556 INFO spawned: 'flask' with pid 10
+2024-06-26 05:10:42,845 WARN exited: flask (exit status 1; not expected)
+2024-06-26 05:10:45,852 INFO spawned: 'flask' with pid 11
+2024-06-26 05:10:46,063 WARN exited: flask (exit status 1; not expected)
+2024-06-26 05:10:47,065 INFO gave up: flask entered FATAL state, too many start retries too quickly
+2024-06-26 05:15:33,456 WARN received SIGTERM indicating exit request
+2024-06-26 05:15:33,457 INFO waiting for cron to die
+2024-06-26 05:15:34,461 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 05:15:42,628 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 05:15:42,630 INFO supervisord started with pid 1
+2024-06-26 05:15:43,633 INFO spawned: 'cron' with pid 7
+2024-06-26 05:15:43,635 INFO spawned: 'flask' with pid 8
+2024-06-26 05:15:44,854 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 05:15:44,854 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 05:17:26,964 WARN received SIGTERM indicating exit request
+2024-06-26 05:17:26,965 INFO waiting for cron, flask to die
+2024-06-26 05:17:26,966 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 05:17:26,967 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:00:39,018 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:00:39,022 INFO supervisord started with pid 1
+2024-06-26 09:00:40,024 INFO spawned: 'cron' with pid 7
+2024-06-26 09:00:40,026 INFO spawned: 'flask' with pid 8
+2024-06-26 09:00:41,348 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:00:41,348 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:12:22,096 WARN received SIGTERM indicating exit request
+2024-06-26 09:12:22,098 INFO waiting for cron, flask to die
+2024-06-26 09:12:22,102 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:12:22,103 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:12:29,372 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:12:29,374 INFO supervisord started with pid 1
+2024-06-26 09:12:30,380 INFO spawned: 'cron' with pid 7
+2024-06-26 09:12:30,382 INFO spawned: 'flask' with pid 8
+2024-06-26 09:12:31,666 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:12:31,666 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:13:15,553 WARN received SIGTERM indicating exit request
+2024-06-26 09:13:15,554 INFO waiting for cron, flask to die
+2024-06-26 09:13:15,559 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:13:15,560 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:13:22,622 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:13:22,623 INFO supervisord started with pid 1
+2024-06-26 09:13:23,626 INFO spawned: 'cron' with pid 7
+2024-06-26 09:13:23,627 INFO spawned: 'flask' with pid 8
+2024-06-26 09:13:24,809 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:13:24,809 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:15:47,389 WARN received SIGTERM indicating exit request
+2024-06-26 09:15:47,389 INFO waiting for cron, flask to die
+2024-06-26 09:15:47,394 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:15:47,395 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:15:52,786 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:15:52,787 INFO supervisord started with pid 1
+2024-06-26 09:15:53,790 INFO spawned: 'cron' with pid 7
+2024-06-26 09:15:53,794 INFO spawned: 'flask' with pid 8
+2024-06-26 09:15:55,039 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:15:55,039 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:18:02,358 WARN received SIGTERM indicating exit request
+2024-06-26 09:18:02,359 INFO waiting for cron, flask to die
+2024-06-26 09:18:02,365 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:18:02,366 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:18:10,288 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:18:10,290 INFO supervisord started with pid 1
+2024-06-26 09:18:11,294 INFO spawned: 'cron' with pid 7
+2024-06-26 09:18:11,298 INFO spawned: 'flask' with pid 8
+2024-06-26 09:18:12,496 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:18:12,496 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:18:40,387 WARN received SIGTERM indicating exit request
+2024-06-26 09:18:40,387 INFO waiting for cron, flask to die
+2024-06-26 09:18:40,389 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:18:40,390 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:18:46,904 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:18:46,906 INFO supervisord started with pid 1
+2024-06-26 09:18:47,908 INFO spawned: 'cron' with pid 7
+2024-06-26 09:18:47,910 INFO spawned: 'flask' with pid 8
+2024-06-26 09:18:49,088 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:18:49,088 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:21:14,729 WARN received SIGTERM indicating exit request
+2024-06-26 09:21:14,729 INFO waiting for cron, flask to die
+2024-06-26 09:21:14,734 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 09:21:14,735 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 09:21:27,632 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 09:21:27,634 INFO supervisord started with pid 1
+2024-06-26 09:21:28,636 INFO spawned: 'cron' with pid 7
+2024-06-26 09:21:28,638 INFO spawned: 'flask' with pid 8
+2024-06-26 09:21:29,839 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 09:21:29,839 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:05:46,749 WARN received SIGTERM indicating exit request
+2024-06-26 10:05:46,750 INFO waiting for cron, flask to die
+2024-06-26 10:05:46,754 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:05:46,755 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:05:53,757 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:05:53,760 INFO supervisord started with pid 1
+2024-06-26 10:05:54,763 INFO spawned: 'cron' with pid 7
+2024-06-26 10:05:54,765 INFO spawned: 'flask' with pid 8
+2024-06-26 10:05:55,949 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:05:55,949 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:08:26,436 WARN received SIGTERM indicating exit request
+2024-06-26 10:08:26,438 INFO waiting for cron, flask to die
+2024-06-26 10:08:26,442 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:08:26,442 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:08:38,626 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:08:38,629 INFO supervisord started with pid 1
+2024-06-26 10:08:39,632 INFO spawned: 'cron' with pid 8
+2024-06-26 10:08:39,633 INFO spawned: 'flask' with pid 9
+2024-06-26 10:08:40,832 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:08:40,833 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:10:52,006 WARN received SIGTERM indicating exit request
+2024-06-26 10:10:52,009 INFO waiting for cron, flask to die
+2024-06-26 10:10:52,011 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:10:52,011 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:11:45,462 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:11:45,464 INFO supervisord started with pid 1
+2024-06-26 10:11:46,467 INFO spawned: 'cron' with pid 7
+2024-06-26 10:11:46,469 INFO spawned: 'flask' with pid 8
+2024-06-26 10:11:47,697 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:11:47,697 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:13:29,716 WARN received SIGTERM indicating exit request
+2024-06-26 10:13:29,716 INFO waiting for cron, flask to die
+2024-06-26 10:13:29,718 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:13:29,719 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:13:38,137 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:13:38,139 INFO supervisord started with pid 1
+2024-06-26 10:13:39,143 INFO spawned: 'cron' with pid 13
+2024-06-26 10:13:39,147 INFO spawned: 'flask' with pid 14
+2024-06-26 10:13:40,341 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:13:40,342 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:15:46,855 WARN received SIGTERM indicating exit request
+2024-06-26 10:15:46,856 INFO waiting for cron, flask to die
+2024-06-26 10:15:46,861 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:15:46,862 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:15:53,009 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:15:53,011 INFO supervisord started with pid 1
+2024-06-26 10:15:54,013 INFO spawned: 'cron' with pid 7
+2024-06-26 10:15:54,016 INFO spawned: 'flask' with pid 8
+2024-06-26 10:15:55,216 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:15:55,216 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:16:34,771 WARN received SIGTERM indicating exit request
+2024-06-26 10:16:34,772 INFO waiting for cron, flask to die
+2024-06-26 10:16:34,777 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:16:34,778 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:16:41,622 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:16:41,623 INFO supervisord started with pid 1
+2024-06-26 10:16:42,627 INFO spawned: 'cron' with pid 7
+2024-06-26 10:16:42,629 INFO spawned: 'flask' with pid 8
+2024-06-26 10:16:43,891 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:16:43,892 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:18:04,183 WARN received SIGTERM indicating exit request
+2024-06-26 10:18:04,183 INFO waiting for cron, flask to die
+2024-06-26 10:18:04,185 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:18:04,186 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:18:16,958 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:18:16,959 INFO supervisord started with pid 1
+2024-06-26 10:18:17,960 INFO spawned: 'cron' with pid 7
+2024-06-26 10:18:17,962 INFO spawned: 'flask' with pid 8
+2024-06-26 10:18:19,143 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:18:19,144 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:19:05,717 WARN received SIGTERM indicating exit request
+2024-06-26 10:19:05,718 INFO waiting for cron, flask to die
+2024-06-26 10:19:05,723 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:19:05,724 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:19:12,493 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:19:12,495 INFO supervisord started with pid 1
+2024-06-26 10:19:13,497 INFO spawned: 'cron' with pid 7
+2024-06-26 10:19:13,498 INFO spawned: 'flask' with pid 8
+2024-06-26 10:19:14,674 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:19:14,674 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:19:44,479 WARN received SIGTERM indicating exit request
+2024-06-26 10:19:44,480 INFO waiting for cron, flask to die
+2024-06-26 10:19:44,482 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:19:44,482 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:19:49,564 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:19:49,565 INFO supervisord started with pid 1
+2024-06-26 10:19:50,567 INFO spawned: 'cron' with pid 7
+2024-06-26 10:19:50,569 INFO spawned: 'flask' with pid 8
+2024-06-26 10:19:51,796 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:19:51,797 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:24:30,289 WARN received SIGTERM indicating exit request
+2024-06-26 10:24:30,290 INFO waiting for cron, flask to die
+2024-06-26 10:24:30,293 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:24:30,294 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:25:14,418 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:25:14,419 INFO supervisord started with pid 1
+2024-06-26 10:25:15,422 INFO spawned: 'cron' with pid 7
+2024-06-26 10:25:15,424 INFO spawned: 'flask' with pid 8
+2024-06-26 10:25:16,656 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:25:16,657 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:27:42,985 WARN received SIGTERM indicating exit request
+2024-06-26 10:27:42,986 INFO waiting for cron, flask to die
+2024-06-26 10:27:42,991 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:27:42,992 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:27:48,713 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:27:48,714 INFO supervisord started with pid 1
+2024-06-26 10:27:49,719 INFO spawned: 'cron' with pid 7
+2024-06-26 10:27:49,721 INFO spawned: 'flask' with pid 8
+2024-06-26 10:27:50,908 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:27:50,908 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:28:20,563 WARN received SIGTERM indicating exit request
+2024-06-26 10:28:20,564 INFO waiting for cron, flask to die
+2024-06-26 10:28:20,569 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:28:20,570 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:28:33,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:28:33,343 INFO supervisord started with pid 1
+2024-06-26 10:28:34,346 INFO spawned: 'cron' with pid 7
+2024-06-26 10:28:34,347 INFO spawned: 'flask' with pid 8
+2024-06-26 10:28:35,599 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:28:35,600 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:30:20,005 WARN received SIGTERM indicating exit request
+2024-06-26 10:30:20,006 INFO waiting for cron, flask to die
+2024-06-26 10:30:20,010 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 10:30:20,011 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 10:30:25,774 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 10:30:25,775 INFO supervisord started with pid 1
+2024-06-26 10:30:26,778 INFO spawned: 'cron' with pid 7
+2024-06-26 10:30:26,780 INFO spawned: 'flask' with pid 8
+2024-06-26 10:30:28,063 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 10:30:28,064 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 12:13:09,568 WARN received SIGTERM indicating exit request
+2024-06-26 12:13:09,577 INFO waiting for cron, flask to die
+2024-06-26 12:13:09,588 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 12:13:09,591 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 13:19:42,567 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 13:19:42,573 INFO supervisord started with pid 1
+2024-06-26 13:19:43,575 INFO spawned: 'cron' with pid 7
+2024-06-26 13:19:43,577 INFO spawned: 'flask' with pid 8
+2024-06-26 13:19:45,356 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 13:19:45,356 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 13:31:05,138 WARN received SIGTERM indicating exit request
+2024-06-26 13:31:05,142 INFO waiting for cron, flask to die
+2024-06-26 13:31:05,149 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 13:31:05,150 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 14:25:37,956 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 14:25:37,960 INFO supervisord started with pid 1
+2024-06-26 14:25:38,964 INFO spawned: 'cron' with pid 7
+2024-06-26 14:25:38,965 INFO spawned: 'flask' with pid 8
+2024-06-26 14:25:40,672 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 14:25:40,672 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 20:14:51,866 WARN received SIGTERM indicating exit request
+2024-06-26 20:14:51,877 INFO waiting for cron, flask to die
+2024-06-26 20:14:51,892 WARN stopped: flask (terminated by SIGTERM)
+2024-06-26 20:14:51,896 WARN stopped: cron (terminated by SIGTERM)
+2024-06-26 21:34:20,683 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-26 21:34:20,688 INFO supervisord started with pid 1
+2024-06-26 21:34:21,693 INFO spawned: 'cron' with pid 7
+2024-06-26 21:34:21,695 INFO spawned: 'flask' with pid 8
+2024-06-26 21:34:23,480 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-26 21:34:23,480 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 00:03:12,517 WARN received SIGTERM indicating exit request
+2024-06-27 00:03:12,519 INFO waiting for cron, flask to die
+2024-06-27 00:03:12,521 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 00:03:12,522 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 08:55:58,897 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 08:55:58,903 INFO supervisord started with pid 1
+2024-06-27 08:55:59,906 INFO spawned: 'cron' with pid 7
+2024-06-27 08:55:59,908 INFO spawned: 'flask' with pid 8
+2024-06-27 08:56:01,444 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 08:56:01,445 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 09:16:39,239 WARN received SIGTERM indicating exit request
+2024-06-27 09:16:39,241 INFO waiting for cron, flask to die
+2024-06-27 09:16:39,249 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 09:16:39,250 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 11:40:57,570 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 11:40:57,576 INFO supervisord started with pid 1
+2024-06-27 11:40:58,578 INFO spawned: 'cron' with pid 7
+2024-06-27 11:40:58,580 INFO spawned: 'flask' with pid 8
+2024-06-27 11:41:00,168 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 11:41:00,169 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 14:28:56,200 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 14:28:56,203 INFO supervisord started with pid 1
+2024-06-27 14:28:57,208 INFO spawned: 'cron' with pid 7
+2024-06-27 14:28:57,209 INFO spawned: 'flask' with pid 8
+2024-06-27 14:28:59,103 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 14:28:59,104 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 17:54:57,373 WARN received SIGTERM indicating exit request
+2024-06-27 17:54:57,374 INFO waiting for cron, flask to die
+2024-06-27 17:54:57,380 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 17:54:57,381 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 17:59:07,624 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 17:59:07,628 INFO supervisord started with pid 1
+2024-06-27 17:59:08,630 INFO spawned: 'cron' with pid 7
+2024-06-27 17:59:08,631 INFO spawned: 'flask' with pid 8
+2024-06-27 17:59:10,181 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 17:59:10,182 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 18:10:49,781 WARN received SIGTERM indicating exit request
+2024-06-27 18:10:49,782 INFO waiting for cron, flask to die
+2024-06-27 18:10:49,789 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 18:10:49,790 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 18:53:49,569 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 18:53:49,574 INFO supervisord started with pid 1
+2024-06-27 18:53:50,576 INFO spawned: 'cron' with pid 7
+2024-06-27 18:53:50,577 INFO spawned: 'flask' with pid 8
+2024-06-27 18:53:52,281 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 18:53:52,281 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 18:55:21,252 WARN received SIGTERM indicating exit request
+2024-06-27 18:55:21,259 INFO waiting for cron, flask to die
+2024-06-27 18:55:21,269 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 18:55:21,269 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 18:55:27,176 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 18:55:27,181 INFO supervisord started with pid 1
+2024-06-27 18:55:28,187 INFO spawned: 'cron' with pid 7
+2024-06-27 18:55:28,189 INFO spawned: 'flask' with pid 8
+2024-06-27 18:55:30,141 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 18:55:30,142 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:02:40,932 WARN received SIGTERM indicating exit request
+2024-06-27 19:02:40,935 INFO waiting for cron, flask to die
+2024-06-27 19:02:40,943 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:02:40,945 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:02:50,268 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:02:50,270 INFO supervisord started with pid 1
+2024-06-27 19:02:51,273 INFO spawned: 'cron' with pid 7
+2024-06-27 19:02:51,275 INFO spawned: 'flask' with pid 8
+2024-06-27 19:02:52,662 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:02:52,662 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:05:29,852 WARN received SIGTERM indicating exit request
+2024-06-27 19:05:29,857 INFO waiting for cron, flask to die
+2024-06-27 19:05:29,876 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:05:29,879 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:05:35,652 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:05:35,653 INFO supervisord started with pid 1
+2024-06-27 19:05:36,656 INFO spawned: 'cron' with pid 7
+2024-06-27 19:05:36,658 INFO spawned: 'flask' with pid 8
+2024-06-27 19:05:37,985 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:05:37,985 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:06:24,468 WARN received SIGTERM indicating exit request
+2024-06-27 19:06:24,469 INFO waiting for cron, flask to die
+2024-06-27 19:06:24,476 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:06:24,477 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:06:30,104 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:06:30,105 INFO supervisord started with pid 1
+2024-06-27 19:06:31,108 INFO spawned: 'cron' with pid 7
+2024-06-27 19:06:31,109 INFO spawned: 'flask' with pid 8
+2024-06-27 19:06:32,460 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:06:32,461 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:34:41,867 WARN received SIGTERM indicating exit request
+2024-06-27 19:34:41,868 INFO waiting for cron, flask to die
+2024-06-27 19:34:41,873 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:34:41,874 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:35:39,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:35:39,117 INFO supervisord started with pid 1
+2024-06-27 19:35:40,120 INFO spawned: 'cron' with pid 7
+2024-06-27 19:35:40,122 INFO spawned: 'flask' with pid 8
+2024-06-27 19:35:41,481 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:35:41,481 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:37:12,940 WARN received SIGTERM indicating exit request
+2024-06-27 19:37:12,941 INFO waiting for cron, flask to die
+2024-06-27 19:37:12,950 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:37:12,951 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:37:18,311 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:37:18,313 INFO supervisord started with pid 1
+2024-06-27 19:37:19,316 INFO spawned: 'cron' with pid 8
+2024-06-27 19:37:19,318 INFO spawned: 'flask' with pid 9
+2024-06-27 19:37:20,656 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:37:20,657 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:37:44,076 WARN received SIGTERM indicating exit request
+2024-06-27 19:37:44,077 INFO waiting for cron, flask to die
+2024-06-27 19:37:44,083 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:37:44,084 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:37:51,042 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:37:51,045 INFO supervisord started with pid 1
+2024-06-27 19:37:52,047 INFO spawned: 'cron' with pid 7
+2024-06-27 19:37:52,049 INFO spawned: 'flask' with pid 8
+2024-06-27 19:37:53,395 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:37:53,395 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:43:07,740 WARN received SIGTERM indicating exit request
+2024-06-27 19:43:07,742 INFO waiting for cron, flask to die
+2024-06-27 19:43:07,750 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 19:43:07,751 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 19:43:13,305 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 19:43:13,306 INFO supervisord started with pid 1
+2024-06-27 19:43:14,309 INFO spawned: 'cron' with pid 7
+2024-06-27 19:43:14,311 INFO spawned: 'flask' with pid 8
+2024-06-27 19:43:15,673 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 19:43:15,674 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:15:11,914 WARN received SIGTERM indicating exit request
+2024-06-27 21:15:11,923 INFO waiting for cron, flask to die
+2024-06-27 21:15:11,937 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 21:15:11,941 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 21:24:48,271 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 21:24:48,274 INFO supervisord started with pid 1
+2024-06-27 21:24:49,277 INFO spawned: 'cron' with pid 7
+2024-06-27 21:24:49,278 INFO spawned: 'flask' with pid 8
+2024-06-27 21:24:50,690 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:24:50,690 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:29:15,899 WARN received SIGTERM indicating exit request
+2024-06-27 21:29:15,900 INFO waiting for cron, flask to die
+2024-06-27 21:29:15,905 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 21:29:15,906 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 21:29:56,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 21:29:56,298 INFO supervisord started with pid 1
+2024-06-27 21:29:57,301 INFO spawned: 'cron' with pid 7
+2024-06-27 21:29:57,303 INFO spawned: 'flask' with pid 8
+2024-06-27 21:29:58,672 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:29:58,672 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:38:45,493 WARN received SIGTERM indicating exit request
+2024-06-27 21:38:45,494 INFO waiting for cron, flask to die
+2024-06-27 21:38:45,500 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 21:38:45,501 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 21:39:34,233 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 21:39:34,235 INFO supervisord started with pid 1
+2024-06-27 21:39:35,238 INFO spawned: 'cron' with pid 7
+2024-06-27 21:39:35,240 INFO spawned: 'flask' with pid 8
+2024-06-27 21:39:36,594 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 21:39:36,594 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 23:56:23,700 WARN received SIGTERM indicating exit request
+2024-06-27 23:56:23,704 INFO waiting for cron, flask to die
+2024-06-27 23:56:23,707 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 23:56:23,708 WARN stopped: cron (terminated by SIGTERM)
+2024-06-27 23:56:28,733 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-27 23:56:28,736 INFO supervisord started with pid 1
+2024-06-27 23:56:29,738 INFO spawned: 'cron' with pid 7
+2024-06-27 23:56:29,740 INFO spawned: 'flask' with pid 8
+2024-06-27 23:56:31,060 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 23:56:31,060 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 23:57:57,169 WARN received SIGTERM indicating exit request
+2024-06-27 23:57:57,170 INFO waiting for cron, flask to die
+2024-06-27 23:57:57,176 WARN stopped: flask (terminated by SIGTERM)
+2024-06-27 23:57:57,177 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 00:00:32,354 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 00:00:32,355 INFO supervisord started with pid 1
+2024-06-28 00:00:33,357 INFO spawned: 'cron' with pid 6
+2024-06-28 00:00:33,358 INFO spawned: 'flask' with pid 7
+2024-06-28 00:00:34,700 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 00:00:34,701 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 00:04:56,079 WARN received SIGTERM indicating exit request
+2024-06-28 00:04:56,081 INFO waiting for cron, flask to die
+2024-06-28 00:04:56,087 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 00:04:56,088 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 00:10:51,641 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 00:10:51,643 INFO supervisord started with pid 1
+2024-06-28 00:10:52,645 INFO spawned: 'cron' with pid 7
+2024-06-28 00:10:52,647 INFO spawned: 'flask' with pid 8
+2024-06-28 00:10:53,889 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 00:10:53,890 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 01:34:55,688 WARN received SIGTERM indicating exit request
+2024-06-28 01:34:55,693 INFO waiting for cron, flask to die
+2024-06-28 01:34:55,697 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 01:34:55,698 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 01:35:08,088 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 01:35:08,092 INFO supervisord started with pid 1
+2024-06-28 01:35:09,095 INFO spawned: 'cron' with pid 7
+2024-06-28 01:35:09,096 INFO spawned: 'flask' with pid 8
+2024-06-28 01:35:10,628 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 01:35:10,628 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 01:54:42,797 WARN received SIGTERM indicating exit request
+2024-06-28 01:54:42,798 INFO waiting for cron, flask to die
+2024-06-28 01:54:42,801 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 01:54:42,802 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 01:54:51,242 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 01:54:51,245 INFO supervisord started with pid 1
+2024-06-28 01:54:52,248 INFO spawned: 'cron' with pid 7
+2024-06-28 01:54:52,250 INFO spawned: 'flask' with pid 8
+2024-06-28 01:54:53,659 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 01:54:53,659 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 08:53:01,218 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 08:53:01,222 INFO supervisord started with pid 1
+2024-06-28 08:53:02,238 INFO spawned: 'cron' with pid 7
+2024-06-28 08:53:02,245 INFO spawned: 'flask' with pid 8
+2024-06-28 08:53:03,232 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 08:53:04,237 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:13:14,142 WARN received SIGTERM indicating exit request
+2024-06-28 09:13:14,144 INFO waiting for cron, flask to die
+2024-06-28 09:13:14,152 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 09:13:14,154 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 09:14:31,011 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 09:14:31,013 INFO supervisord started with pid 1
+2024-06-28 09:14:32,018 INFO spawned: 'cron' with pid 7
+2024-06-28 09:14:32,021 INFO spawned: 'flask' with pid 8
+2024-06-28 09:14:33,403 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:14:33,403 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:14:42,413 WARN received SIGTERM indicating exit request
+2024-06-28 09:14:42,413 INFO waiting for cron, flask to die
+2024-06-28 09:14:42,417 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 09:14:42,418 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 09:15:34,148 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 09:15:34,150 INFO supervisord started with pid 1
+2024-06-28 09:15:35,154 INFO spawned: 'cron' with pid 7
+2024-06-28 09:15:35,158 INFO spawned: 'flask' with pid 8
+2024-06-28 09:15:36,707 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:15:36,708 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:15:41,713 WARN received SIGTERM indicating exit request
+2024-06-28 09:15:41,714 INFO waiting for cron, flask to die
+2024-06-28 09:15:41,720 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 09:15:41,721 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 09:40:01,593 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 09:40:01,598 INFO supervisord started with pid 1
+2024-06-28 09:40:02,606 INFO spawned: 'cron' with pid 7
+2024-06-28 09:40:02,607 INFO spawned: 'flask' with pid 8
+2024-06-28 09:40:04,370 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:40:04,370 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:40:14,383 WARN received SIGTERM indicating exit request
+2024-06-28 09:40:14,384 INFO waiting for cron, flask to die
+2024-06-28 09:40:14,393 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 09:40:14,395 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 09:42:52,000 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 09:42:52,002 INFO supervisord started with pid 1
+2024-06-28 09:42:53,006 INFO spawned: 'cron' with pid 7
+2024-06-28 09:42:53,015 INFO spawned: 'flask' with pid 8
+2024-06-28 09:42:54,370 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:42:54,371 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 09:43:19,404 WARN received SIGTERM indicating exit request
+2024-06-28 09:43:19,405 INFO waiting for cron, flask to die
+2024-06-28 09:43:19,424 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 09:43:19,424 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:27:25,267 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:27:25,270 INFO supervisord started with pid 1
+2024-06-28 10:27:26,274 INFO spawned: 'cron' with pid 7
+2024-06-28 10:27:26,276 INFO spawned: 'flask' with pid 8
+2024-06-28 10:27:27,872 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:27:27,873 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:28:25,954 WARN received SIGTERM indicating exit request
+2024-06-28 10:28:25,954 INFO waiting for cron, flask to die
+2024-06-28 10:28:25,957 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:28:25,958 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:28:33,332 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:28:33,335 INFO supervisord started with pid 1
+2024-06-28 10:28:34,338 INFO spawned: 'cron' with pid 7
+2024-06-28 10:28:34,340 INFO spawned: 'flask' with pid 8
+2024-06-28 10:28:35,820 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:28:35,820 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:29:23,895 WARN received SIGTERM indicating exit request
+2024-06-28 10:29:23,895 INFO waiting for cron, flask to die
+2024-06-28 10:29:23,912 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:29:23,913 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:29:29,553 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:29:29,558 INFO supervisord started with pid 1
+2024-06-28 10:29:30,561 INFO spawned: 'cron' with pid 7
+2024-06-28 10:29:30,562 INFO spawned: 'flask' with pid 8
+2024-06-28 10:29:31,931 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:29:31,931 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:30:28,006 WARN received SIGTERM indicating exit request
+2024-06-28 10:30:28,008 INFO waiting for cron, flask to die
+2024-06-28 10:30:28,014 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:30:28,016 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:30:33,378 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:30:33,380 INFO supervisord started with pid 1
+2024-06-28 10:30:34,383 INFO spawned: 'cron' with pid 7
+2024-06-28 10:30:34,385 INFO spawned: 'flask' with pid 8
+2024-06-28 10:30:35,717 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:30:35,717 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:36:21,116 WARN received SIGTERM indicating exit request
+2024-06-28 10:36:21,117 INFO waiting for cron, flask to die
+2024-06-28 10:36:21,123 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:36:21,125 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:36:29,063 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:36:29,065 INFO supervisord started with pid 1
+2024-06-28 10:36:30,068 INFO spawned: 'cron' with pid 7
+2024-06-28 10:36:30,069 INFO spawned: 'flask' with pid 8
+2024-06-28 10:36:31,419 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:36:31,419 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:37:18,481 WARN received SIGTERM indicating exit request
+2024-06-28 10:37:18,482 INFO waiting for cron, flask to die
+2024-06-28 10:37:18,490 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:37:18,491 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 10:43:51,888 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 10:43:51,893 INFO supervisord started with pid 1
+2024-06-28 10:43:52,901 INFO spawned: 'cron' with pid 7
+2024-06-28 10:43:52,903 INFO spawned: 'flask' with pid 8
+2024-06-28 10:43:53,905 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:43:53,905 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 10:46:53,391 WARN received SIGTERM indicating exit request
+2024-06-28 10:46:53,392 INFO waiting for cron, flask to die
+2024-06-28 10:46:53,399 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 10:46:53,400 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 12:52:52,160 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 12:52:52,163 INFO supervisord started with pid 1
+2024-06-28 12:52:53,168 INFO spawned: 'cron' with pid 7
+2024-06-28 12:52:53,170 INFO spawned: 'flask' with pid 8
+2024-06-28 12:52:54,949 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 12:52:54,949 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 12:58:41,098 WARN received SIGTERM indicating exit request
+2024-06-28 12:58:41,101 INFO waiting for cron, flask to die
+2024-06-28 12:58:41,103 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 12:58:41,103 WARN stopped: cron (terminated by SIGTERM)
+2024-06-28 13:00:35,916 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-28 13:00:35,920 INFO supervisord started with pid 1
+2024-06-28 13:00:36,923 INFO spawned: 'cron' with pid 6
+2024-06-28 13:00:36,924 INFO spawned: 'flask' with pid 7
+2024-06-28 13:00:38,391 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 13:00:38,391 INFO success: flask entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-28 14:32:00,744 WARN received SIGTERM indicating exit request
+2024-06-28 14:32:00,749 INFO waiting for cron, flask to die
+2024-06-28 14:32:00,756 WARN stopped: flask (terminated by SIGTERM)
+2024-06-28 14:32:00,758 WARN stopped: cron (terminated by SIGTERM)

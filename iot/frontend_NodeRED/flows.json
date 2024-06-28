@@ -1,0 +1,4092 @@
+[
+    {
+        "id": "4cd79f08a1e72dcf",
+        "type": "tab",
+        "label": "request_simple_model",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ea3f8925572bc8a7",
+        "type": "tab",
+        "label": "atsuki_test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6f824968e1c74319",
+        "type": "tab",
+        "label": "dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2cb46b7dcb250e20",
+        "type": "tab",
+        "label": "atsuki_dashboard_flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eaf4ab20fd4f0552",
+        "type": "tab",
+        "label": "フロー 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a9d17759467ec5ab",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#ffffff",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "simulation-demo",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "YYYY/MM/DD",
+            "sizes": {
+                "sx": 80,
+                "sy": 80,
+                "gx": 5,
+                "gy": 5,
+                "cx": 5,
+                "cy": 5,
+                "px": 5,
+                "py": 5
+            }
+        }
+    },
+    {
+        "id": "ec3d6f50b0ef621e",
+        "type": "ui_tab",
+        "name": "signin",
+        "icon": "account_circle",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "00f6212109cb96d7",
+        "type": "ui_group",
+        "name": "please fill your information",
+        "tab": "ec3d6f50b0ef621e",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f620623070c2a5bd",
+        "type": "ui_tab",
+        "name": "signup",
+        "icon": "create",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "90f876c4dd9bf71f",
+        "type": "ui_group",
+        "name": "please your information",
+        "tab": "f620623070c2a5bd",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5850630318ad32f4",
+        "type": "ui_tab",
+        "name": "user resister",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "e73f19ab860fb9af",
+        "type": "ui_group",
+        "name": "please infomation to resister",
+        "tab": "5850630318ad32f4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b4f29528b847d1ef",
+        "type": "ui_tab",
+        "name": "certification",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "fc0d382079b6fab5",
+        "type": "ui_group",
+        "name": "type here your certificate number",
+        "tab": "b4f29528b847d1ef",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "81b1bdc3.9a60b8",
+        "type": "ui_group",
+        "name": "Hacks",
+        "tab": "2f5baa7e.0221fe",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2f5baa7e.0221fe",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "timeline",
+        "order": 3,
+        "disabled": true,
+        "hidden": false
+    },
+    {
+        "id": "9379c82af452cfe8",
+        "type": "ui_spacer",
+        "z": "6f824968e1c74319",
+        "name": "spacer",
+        "group": "e73f19ab860fb9af",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a9d9a58918ae9263",
+        "type": "ui_tab",
+        "name": "Application_demo",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fcd2a9620a5003c7",
+        "type": "ui_group",
+        "name": "humidity window",
+        "tab": "a9d9a58918ae9263",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "007cf8af51559624",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 1,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "2af9edec24de84cb",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 2,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "333d0f4c011b797d",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 3,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "a98538996ed51462",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 4,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "b8544e13dc0a8b0e",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 5,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "56cf0d57693bc5d9",
+        "type": "ui_spacer",
+        "z": "2cb46b7dcb250e20",
+        "name": "spacer",
+        "group": "e1ecfd4f17851d36",
+        "order": 6,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "de50acef303d3449",
+        "type": "ui_group",
+        "name": "Infomation",
+        "tab": "85a406f06f045bf3",
+        "order": 4,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": "my-custom-info"
+    },
+    {
+        "id": "a979cdc731524e1e",
+        "type": "ui_group",
+        "name": "Left",
+        "tab": "85a406f06f045bf3",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6f7363d1eb243981",
+        "type": "ui_group",
+        "name": "Buttons",
+        "tab": "85a406f06f045bf3",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e1ecfd4f17851d36",
+        "type": "ui_group",
+        "name": "Center",
+        "tab": "85a406f06f045bf3",
+        "order": 2,
+        "disp": false,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8bb1975bf94f662d",
+        "type": "ui_group",
+        "name": "Left Top",
+        "tab": "85a406f06f045bf3",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "85a406f06f045bf3",
+        "type": "ui_tab",
+        "name": "メイン画面",
+        "icon": "'check'",
+        "order": 4,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "6229a5b6866e8146",
+        "type": "ui_group",
+        "name": "co2 window",
+        "tab": "a9d9a58918ae9263",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5b7313b354518b0e",
+        "type": "ui_group",
+        "name": "temperature window",
+        "tab": "a9d9a58918ae9263",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0f4037e93a3d0626",
+        "type": "ui_group",
+        "name": "water window",
+        "tab": "a9d9a58918ae9263",
+        "order": 5,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3baf9f54646316e4",
+        "type": "ui_group",
+        "name": "Mary Gold Window",
+        "tab": "a9d9a58918ae9263",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "805e488a9f943934",
+        "type": "ui_group",
+        "name": "fetilizer window",
+        "tab": "a9d9a58918ae9263",
+        "order": 8,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8b61b37f135cdb1e",
+        "type": "ui_group",
+        "name": "status",
+        "tab": "a9d9a58918ae9263",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2c925b3e75fb0ed2",
+        "type": "ui_tab",
+        "name": "user_config",
+        "icon": "settings",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "782eb5cf9ba31cd5",
+        "type": "ui_group",
+        "name": "conf_color",
+        "tab": "2c925b3e75fb0ed2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e77efef5c32cb49f",
+        "type": "ui_group",
+        "name": "user",
+        "tab": "a9d9a58918ae9263",
+        "order": 3,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d03f65c2ba09591",
+        "type": "inject",
+        "z": "4cd79f08a1e72dcf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "16d3ec9e29c557cb"
+            ]
+        ]
+    },
+    {
+        "id": "16d3ec9e29c557cb",
+        "type": "function",
+        "z": "4cd79f08a1e72dcf",
+        "name": "function 1",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/compare_info\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = {\n    username: \"221205015\",\n    password: \"05_pass\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "5f2d4c06825e9aa5"
+            ]
+        ]
+    },
+    {
+        "id": "5f2d4c06825e9aa5",
+        "type": "http request",
+        "z": "4cd79f08a1e72dcf",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "f461ada0e84dcad7"
+            ]
+        ]
+    },
+    {
+        "id": "f461ada0e84dcad7",
+        "type": "debug",
+        "z": "4cd79f08a1e72dcf",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f1c279db2596755f",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "メイン画面_CSS",
+        "url": "/main_styles.css",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 480,
+        "wires": [
+            [
+                "7aad65422a79b112"
+            ]
+        ]
+    },
+    {
+        "id": "7aad65422a79b112",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "main_styles.css",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "css",
+        "syntax": "mustache",
+        "template": "body {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    background-color: #f9f0cc;\n}\n\n.container {\n    display: flex;\n    height: 100vh;\n    width: 100vw;\n    justify-content: space-between;\n}\n\n.leftbar, .rightbar {\n    width: 300px;\n    background-color: #f9f0cc;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    padding-bottom: 20px;\n}\n\n.icon {\n    width: 60px;\n    height: 60px;\n    margin: 20px 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    border-radius: 50%;\n    border: none; /* ボーダーをリセット */\n    background: none; /* 背景をリセット */\n    cursor: pointer; /* カーソルをポインタに */\n    padding: 0; /* パディングをリセット */\n}\n\n.leftbar button {\n    padding: 50px 50px;\n    border: none;\n    background-color: #ffffff;\n    cursor: pointer;\n}\n\n.leftbar button:hover {\n    background-color: #e3e3e3;\n}\n\n.icon.water {\n    border: 5px solid #00aaff;\n}\n\n.icon.fertilizer {\n    border: 5px solid #ffa500;\n}\n\n.icon img {\n    width: 50px;\n    height: 70px;\n}\n\n.main {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    background-color: #f9f0cc;\n}\n\n.experiment-info {\n    width: 100%;\n    text-align: left;\n    margin: 20px 0;\n    margin-bottom: 100px;\n    background-color: #ffffff;\n}\n\n.experiment-info p {\n    margin: 10px 10px;\n}\n\n.buttons {\n    width: 80%;\n    display: flex;\n    flex-direction: column;\n    gap: 40px;\n    margin: 20px 0;\n}\n\n.buttons button {\n    padding: 20px 30px;\n    border: none;\n    background-color: #ffffff;\n    cursor: pointer;\n}\n\n.buttons p {\n    margin: 10px 10px;\n}\n\n.buttons button:hover {\n    background-color: #e3e3e3;\n}\n\n.plant-area {\n    width: 300px;\n    height: 200px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #f9f0cc;\n}\n",
+        "output": "str",
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "a82d9c4479cdb047"
+            ]
+        ]
+    },
+    {
+        "id": "acbd42f77a1eb6a8",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "HTML_サインイン",
+        "url": "/signin.html",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 660,
+        "wires": [
+            [
+                "11e229d0050addef"
+            ]
+        ]
+    },
+    {
+        "id": "1a5b14e83008bf41",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "signin.html",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>サインインページ</title>\n    <link rel=\"stylesheet\" href=\"/sign_styles.css\">\n</head>\n<body>\n    <div class=\"container\">\n        <h2>サインイン</h2>\n        <form id=\"signinForm\">\n            <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"メールアドレス\" required>\n            <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"パスワード\" required>\n            <button type=\"submit\">ログイン</button>\n        </form>\n        <a href=\"signup.html\" class=\"signup-link\">サインアップはこちら</a>\n    </div>\n\n    <script src=\"signin_script.js\"></script>\n</body>\n</html>",
+        "output": "str",
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "ad17302f759bef33"
+            ]
+        ]
+    },
+    {
+        "id": "ad17302f759bef33",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "5d6f98dac440a1f6",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "CSS_サインイン/アップ",
+        "url": "/sign_styles.css",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1060,
+        "wires": [
+            [
+                "55a6e8a4b919913d"
+            ]
+        ]
+    },
+    {
+        "id": "55a6e8a4b919913d",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "sign_styles.css",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "body {\n    font-family: Arial, sans-serif;\n    background-color: #f0f0f0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n}\n\n.container {\n    background-color: white;\n    padding: 20px;\n    border-radius: 8px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n    width: 300px;\n    text-align: center;\n}\n\n.container h2 {\n    margin-bottom: 20px;\n}\n\n.container input {\n    width: 90%;\n    padding: 10px;\n    margin: 10px 0;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n}\n\n.container button {\n    width: 90%;\n    padding: 10px;\n    background-color: #4CAF50;\n    color: white;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n}\n\n.container button:hover {\n    background-color: #45a049;\n}\n\n.signup-link {\n    margin-top: 20px;\n    display: block;\n    color: #4CAF50;\n    text-decoration: none;\n}\n\n.signup-link:hover {\n    text-decoration: underline;\n}\n\n.signin-link {\n    margin-top: 20px;\n    display: block;\n    color: #4CAF50;\n    text-decoration: none;\n}\n\n.signin-link:hover {\n    text-decoration: underline;\n}",
+        "output": "str",
+        "x": 360,
+        "y": 1060,
+        "wires": [
+            [
+                "325d7adacc3b0575"
+            ]
+        ]
+    },
+    {
+        "id": "325d7adacc3b0575",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Type": "text/css"
+        },
+        "x": 510,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "8fdedb5682027403",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "js_サインイン",
+        "url": "/signin_script.js",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 720,
+        "wires": [
+            [
+                "19a62aed18cd318c"
+            ]
+        ]
+    },
+    {
+        "id": "19a62aed18cd318c",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "signin_script.js",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "document.getElementById('signinForm').addEventListener('submit', function(event) {\n    event.preventDefault();\n    const email = document.getElementById('email').value;\n    const password = document.getElementById('password').value;\n\n    console.log('メールアドレス:', email);\n    console.log('パスワード:', password);\n\n    // ここにAPI呼び出しを追加\n\n    \n});",
+        "output": "str",
+        "x": 280,
+        "y": 720,
+        "wires": [
+            [
+                "5c4f30f897071b52"
+            ]
+        ]
+    },
+    {
+        "id": "5c4f30f897071b52",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Type": "application/javascript"
+        },
+        "x": 570,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "04b9ebe5ae716fd2",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "ログイン機能",
+        "url": "/api/login",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 1120,
+        "wires": [
+            [
+                "996bfe53804c4a8f"
+            ]
+        ]
+    },
+    {
+        "id": "996bfe53804c4a8f",
+        "type": "function",
+        "z": "ea3f8925572bc8a7",
+        "name": "Login",
+        "func": "\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1120,
+        "wires": [
+            [
+                "87cc4ba225b10a7b"
+            ]
+        ]
+    },
+    {
+        "id": "87cc4ba225b10a7b",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 470,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7061d1d710c6e5b4",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "HTML_サインアップ",
+        "url": "/signup.html",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 1000,
+        "wires": [
+            [
+                "589f4a916b0f710c"
+            ]
+        ]
+    },
+    {
+        "id": "589f4a916b0f710c",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "signup.html",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>サインアップページ</title>\n    <link rel=\"stylesheet\" href=\"/sign_styles.css\">\n</head>\n<body>\n    <div class=\"container\">\n        <h2>サインアップ</h2>\n        <form id=\"signupForm\">\n            <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"メールアドレス\" required>\n            <button type=\"submit\">メールを送信</button>\n            <a href=\"signin.html\" class=\"signin-link\">戻る</a>\n        </form>\n    </div>\n\n    <script src=\"/signup_script.js\"></script>\n</body>\n</html>",
+        "output": "str",
+        "x": 350,
+        "y": 1000,
+        "wires": [
+            [
+                "f11a8ec7cb20ab31"
+            ]
+        ]
+    },
+    {
+        "id": "f11a8ec7cb20ab31",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "e6d082aab59a5e05",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "js_サインアップ",
+        "url": "/signup_script.js",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 940,
+        "wires": [
+            [
+                "3677d7040e4c0fe0"
+            ]
+        ]
+    },
+    {
+        "id": "3677d7040e4c0fe0",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "signup_script.js",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "document.getElementById('signupForm').addEventListener('submit', function(event) {\n    event.preventDefault();\n    const email = document.getElementById('email').value;\n    \n    console.log('メールアドレス:', email);\n\n    // ここにAPI呼び出しを追加\n\n    \n    \n});",
+        "output": "str",
+        "x": 340,
+        "y": 940,
+        "wires": [
+            [
+                "a2f322c8fc6c16b1"
+            ]
+        ]
+    },
+    {
+        "id": "a2f322c8fc6c16b1",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Type": "application/javascript"
+        },
+        "x": 490,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "57589e7702979b0b",
+        "type": "http in",
+        "z": "ea3f8925572bc8a7",
+        "name": "メイン画面_HTML",
+        "url": "/main.html",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "4bca008bb2bf6108"
+            ]
+        ]
+    },
+    {
+        "id": "4bca008bb2bf6108",
+        "type": "template",
+        "z": "ea3f8925572bc8a7",
+        "name": "main.html",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Airocoを使って植物の育成シミュレーションができるサイトです。\">\n    <meta name=\"keywords\" content=\"植物, 育成, シミュレーション, Airoco\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>植物育成シミュレーション</title>\n    <link rel=\"stylesheet\" href=\"/main_styles.css\">\n    <link rel=\"icon\" href=\"images/sprout.png\">\n</head>\n\n<body>\n    <div class=\"container\">\n        <div class=\"leftbar\">\n            <button class=\"icon water\">\n                <img src=\"images/water.png\" alt=\"水\">\n            </button>\n            <button class=\"icon fertilizer\">\n                <img src=\"images/fertilizer.png\" alt=\"肥料\">\n            </button>\n        </div>\n        <div class=\"main\">\n            <div class=\"plant-area\">\n                <!-- 植物の画像を入れる -->\n            </div>\n        </div>\n        <div class=\"rightbar\">\n            <div class=\"experiment-info\">\n                <p>実験室R-401</p>\n                <p>気温：</p>\n                <p>湿度：</p>\n                <p>CO2：</p>\n                <p>天気：</p>\n            </div>\n            <div class=\"buttons\">\n                <button>水をあげる</button>\n                <button>肥料をあげる</button>\n            </div>\n        </div>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "8be3b1353de53694"
+            ]
+        ]
+    },
+    {
+        "id": "8be3b1353de53694",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 530,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a82d9c4479cdb047",
+        "type": "http response",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Type": "text/css"
+        },
+        "x": 530,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "2781a9bbb1665dd5",
+        "type": "comment",
+        "z": "ea3f8925572bc8a7",
+        "name": "メイン画面の設定",
+        "info": "",
+        "x": 130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "99db43c068cfc1f1",
+        "type": "comment",
+        "z": "ea3f8925572bc8a7",
+        "name": "サインイン/サインアップの設定",
+        "info": "",
+        "x": 170,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "7c8433048fe59a25",
+        "type": "http request",
+        "z": "ea3f8925572bc8a7",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "",
+        "persist": false,
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 750,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11e229d0050addef",
+        "type": "function",
+        "z": "ea3f8925572bc8a7",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 660,
+        "wires": [
+            [
+                "1a5b14e83008bf41"
+            ]
+        ]
+    },
+    {
+        "id": "c288329d492d7487",
+        "type": "ui_form",
+        "z": "6f824968e1c74319",
+        "name": "サインイン情報の入力",
+        "label": "",
+        "group": "00f6212109cb96d7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "payload",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 180,
+        "y": 1100,
+        "wires": [
+            [
+                "95d8399bbd0e7205"
+            ]
+        ]
+    },
+    {
+        "id": "95d8399bbd0e7205",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/signIn\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.user = msg.payload['username']\nmsg.payload = {\n    'username': msg.payload['username'],\n    'password': msg.payload['password']\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1100,
+        "wires": [
+            [
+                "a0b955343a591cee",
+                "fe71f3e8cdcbd71b"
+            ]
+        ]
+    },
+    {
+        "id": "a0b955343a591cee",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 570,
+        "y": 1100,
+        "wires": [
+            [
+                "040bbff40181e7aa",
+                "8772f0679f63c2fe"
+            ]
+        ]
+    },
+    {
+        "id": "040bbff40181e7aa",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "サインインの可否を表示",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "7a54873ec9a5fe33",
+        "type": "ui_form",
+        "z": "6f824968e1c74319",
+        "name": "サインアップ情報の入力",
+        "label": "",
+        "group": "90f876c4dd9bf71f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "email",
+                "value": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "email": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "payload",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "signup-group",
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "be3a38dd88a01350"
+            ]
+        ]
+    },
+    {
+        "id": "be3a38dd88a01350",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/checkMailFromNodeRED\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = msg.payload['email']\nmsg.user = msg.payload.split('@')[0]\nmsg.domain = msg.payload.split('@')[1]\nmsg.payload = {\n    'user': msg.user,\n    'domain': msg.domain\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 340,
+        "wires": [
+            [
+                "36349b15560fab41",
+                "76466f591f703991"
+            ]
+        ]
+    },
+    {
+        "id": "36349b15560fab41",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "a26bc20baf91cd32",
+                "a31e86143cf4aa4c"
+            ]
+        ]
+    },
+    {
+        "id": "a26bc20baf91cd32",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "メールアドレス登録とワンタイムキー取得の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "76466f591f703991",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "メールアドレスのユーザ部とドメイン部の分解の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a31e86143cf4aa4c",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "email認証番号の送信",
+        "func": "if (msg.payload['state'] == \"already\"){\n    msg.to = msg.payload['mail']\n    msg.from = \"togenuts@gmail.com\"\n    msg.topic = \"Test\"\n    msg.onetimekey = 0\n    msg.key_list = [\n        String(Math.floor(Math.random() * 10)),\n        String(Math.floor(Math.random() * 10)),\n        String(Math.floor(Math.random() * 10)),\n        String(Math.floor(Math.random() * 10)),\n        String(Math.floor(Math.random() * 10)),\n        String(Math.floor(Math.random() * 10))\n    ]\n    msg.one_time_key = \"\"\n    msg.key_list.forEach(function(key){\n        msg.one_time_key += key\n        key = null\n    })\n    msg.payload = \"this is your certificate key\\nType this number \\nnumber : \" + msg.one_time_key + \" \\nhttp://localhost/ui/#!/2?socketid=1eaPOoiUuY3u1rxtAAAD \\nthis is page to certificate your number !\"\n    return msg;\n}\nelse { \n    msg.payload = { 'message': \"Not already\" }\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 420,
+        "wires": [
+            [
+                "b74a064bc8ad9c6c",
+                "17191e404c929325",
+                "8b8f1547537e275d",
+                "ee965b9cecbe880a"
+            ]
+        ]
+    },
+    {
+        "id": "b74a064bc8ad9c6c",
+        "type": "e-mail",
+        "z": "6f824968e1c74319",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "ワンタイムキーとリンクを送信",
+        "output": true,
+        "outputs": 1,
+        "x": 1130,
+        "y": 460,
+        "wires": [
+            [
+                "a53b5017c18b2633"
+            ]
+        ]
+    },
+    {
+        "id": "84783407ef735dff",
+        "type": "ui_form",
+        "z": "6f824968e1c74319",
+        "name": "ユーザー情報の入力・送信",
+        "label": "",
+        "group": "e73f19ab860fb9af",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "[re]password",
+                "value": "Repassword",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": "",
+            "Repassword": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "payload",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 200,
+        "y": 940,
+        "wires": [
+            [
+                "a91aef87615b144a",
+                "e4996ab39a117db6"
+            ]
+        ]
+    },
+    {
+        "id": "1586c6091fa18b27",
+        "type": "ui_form",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキーの確認",
+        "label": "",
+        "group": "fc0d382079b6fab5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "certificate number",
+                "value": "certnum",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "certnum": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "payload",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 180,
+        "y": 660,
+        "wires": [
+            [
+                "3b73dcabd9701428"
+            ]
+        ]
+    },
+    {
+        "id": "630baaccd694e296",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1450,
+        "y": 540,
+        "wires": [
+            [
+                "b547f156ee0f3e5e"
+            ]
+        ]
+    },
+    {
+        "id": "17191e404c929325",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキーのJSONオブジェクトを生成",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/resister_otk\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = {\n    'user': msg.user,\n    'domain': msg.domain,\n    'one_time_key': msg.one_time_key\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 500,
+        "wires": [
+            [
+                "630baaccd694e296",
+                "94f56cc7b5ce6129"
+            ]
+        ]
+    },
+    {
+        "id": "b547f156ee0f3e5e",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "データベース登録の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1650,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "8b8f1547537e275d",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "メールアドレスの再構築の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "to",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "94f56cc7b5ce6129",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキーの生成の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "efb0443c06ab1922",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 570,
+        "y": 660,
+        "wires": [
+            [
+                "f1bc7c2eeea1729e"
+            ]
+        ]
+    },
+    {
+        "id": "3b73dcabd9701428",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/compare_one_time_key\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.certification = msg.payload['certnum']\nmsg.payload = {\n    'one_time_key': msg.certification\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 660,
+        "wires": [
+            [
+                "efb0443c06ab1922"
+            ]
+        ]
+    },
+    {
+        "id": "a8578588a0a4f6e8",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキーのチェック",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "ee965b9cecbe880a",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "メール送信通知のトースト前処理",
+        "func": "msg.payload = \"Check it out\"\nmsg.topic = \"notify\"\nmsg.type = \"info\"\nmsg.timeout = 5\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 580,
+        "wires": [
+            [
+                "41e10390025c02bd"
+            ]
+        ]
+    },
+    {
+        "id": "41e10390025c02bd",
+        "type": "ui_toast",
+        "z": "6f824968e1c74319",
+        "position": "top right",
+        "displayTime": "",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "msg.notify-toast",
+        "topic": "You Get One Time Key",
+        "name": "メール送信を報告するトースト",
+        "x": 1450,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a53b5017c18b2633",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "メール送信の可否",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1370,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f6a318e52af68c5c",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "This is Login window CSS",
+        "info": "",
+        "x": 190,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "15f83a1fda9c9788",
+        "type": "ui_ui_control",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "events": "change",
+        "x": 1500,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39a559a123cd8e30",
+        "type": "template",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "plain",
+        "template": "{\n    \"tab\": \"user resister\"\n}",
+        "output": "json",
+        "x": 1360,
+        "y": 820,
+        "wires": [
+            [
+                "15f83a1fda9c9788"
+            ]
+        ]
+    },
+    {
+        "id": "a57cf30b08b09572",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "データ作成のリンク送信",
+        "func": "if (msg.payload['state'] == \"success\"){\n    return msg;\n}\nelse { \n    msg.payload = { 'message': \"Not already\" }\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 820,
+        "wires": [
+            [
+                "39a559a123cd8e30"
+            ]
+        ]
+    },
+    {
+        "id": "f1bc7c2eeea1729e",
+        "type": "switch",
+        "z": "6f824968e1c74319",
+        "name": "データべースの情報との比較による分岐",
+        "property": "payload['state']",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "success",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "success",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 820,
+        "y": 660,
+        "wires": [
+            [
+                "a8578588a0a4f6e8",
+                "a57cf30b08b09572",
+                "ad3b8b054a2a3f55",
+                "7e7ba2d6e99939d4"
+            ],
+            [
+                "97b211bc0569c0c4"
+            ]
+        ]
+    },
+    {
+        "id": "97b211bc0569c0c4",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキー再入力催促のトースト前処理",
+        "func": "msg.payload = \"It may wrong...\"\nmsg.topic = \"Oops! That OneTimeKey doesn’t look right. Try again?\"\nmsg.type = \"info\"\nmsg.timeout = 5\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 860,
+        "wires": [
+            [
+                "e4daefa04e7fb3bf"
+            ]
+        ]
+    },
+    {
+        "id": "e4daefa04e7fb3bf",
+        "type": "ui_toast",
+        "z": "6f824968e1c74319",
+        "position": "top right",
+        "displayTime": "",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "msg.notify-toast",
+        "topic": "",
+        "name": "ワンタイムキー再入力を催促するトースト",
+        "x": 1590,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "aa12c51b8b6f1572",
+        "type": "ui_toast",
+        "z": "6f824968e1c74319",
+        "position": "top right",
+        "displayTime": "",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "msg.notify-toast",
+        "topic": "",
+        "name": "ユーザー情報の入力を催促するトースト",
+        "x": 1580,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "ad3b8b054a2a3f55",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキー再入力催促のトースト前処理",
+        "func": "msg.payload = \"Great!!\"\nmsg.topic = \"Next sign here!\"\nmsg.type = \"info\"\nmsg.timeout = 5\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 780,
+        "wires": [
+            [
+                "aa12c51b8b6f1572"
+            ]
+        ]
+    },
+    {
+        "id": "7dc602927763baa1",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 830,
+        "y": 980,
+        "wires": [
+            [
+                "fad97aab25d39d46",
+                "5dc562379cfcce04"
+            ]
+        ]
+    },
+    {
+        "id": "e44de8b239fd86f7",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/resister_Userinfo\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\n\n\n\nmsg.payload = {\n    'username': msg.payload['username'],\n    'password': msg.payload['password'],\n    'email-user': flow.get(\"email-user\"),\n    'email-domain': flow.get(\"email-domain\")\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "7dc602927763baa1",
+                "253a1e47d29003e3"
+            ]
+        ]
+    },
+    {
+        "id": "a91aef87615b144a",
+        "type": "switch",
+        "z": "6f824968e1c74319",
+        "name": "パスワードの正誤",
+        "property": "payload['password']",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "payload['Repassword']",
+                "vt": "msg"
+            },
+            {
+                "t": "neq",
+                "v": "payload['Repassword']",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 980,
+        "wires": [
+            [
+                "e44de8b239fd86f7"
+            ],
+            [
+                "f5f321bea41d9320"
+            ]
+        ]
+    },
+    {
+        "id": "f5f321bea41d9320",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "ワンタイムキー再入力催促のトースト前処理",
+        "func": "msg.payload = \"It may wrong...\"\nmsg.topic = \"Oops! That password doesn’t look right. Try again?\"\nmsg.type = \"info\"\nmsg.timeout = 5\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1020,
+        "wires": [
+            [
+                "02bba4cd39d4dbc9"
+            ]
+        ]
+    },
+    {
+        "id": "02bba4cd39d4dbc9",
+        "type": "ui_toast",
+        "z": "6f824968e1c74319",
+        "position": "top right",
+        "displayTime": "",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "msg.notify-toast",
+        "topic": "",
+        "name": "ワンタイムキー再入力を催促するトースト",
+        "x": 1090,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "253a1e47d29003e3",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e4996ab39a117db6",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "7e7ba2d6e99939d4",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 4",
+        "func": "msg.payload = msg.payload['email']\nvar str = msg.payload\nvar arr = str.split(\"@\");\n\nmsg.payload = arr\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 660,
+        "wires": [
+            [
+                "cdadb804f3f2fd8b",
+                "5f5f3e1ac8e2e61f"
+            ]
+        ]
+    },
+    {
+        "id": "5f5f3e1ac8e2e61f",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 5",
+        "func": "flow.set('email-user', msg.payload[0])\nflow.set('email-domain', msg.payload[1])\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 660,
+        "wires": [
+            [
+                "45b45695b40dad95"
+            ]
+        ]
+    },
+    {
+        "id": "cdadb804f3f2fd8b",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "45b45695b40dad95",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "fad97aab25d39d46",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "5dc562379cfcce04",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 6",
+        "func": "flow.set(\"email-user\",undefined)\nflow.set(\"email-domain\", undefined)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18506a6089cf1a50",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "サインアップ（メールアドレス認証）",
+        "info": "",
+        "x": 230,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d2ea8b832abb6699",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "サインアップ（ワンタイムキー認証）",
+        "info": "",
+        "x": 230,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "309b576fd162f3bc",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "サインアップ（登録情報の入力）",
+        "info": "",
+        "x": 210,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f9bb620e6c873c07",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "サインイン（入力情報認証）",
+        "info": "",
+        "x": 200,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "fe71f3e8cdcbd71b",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "81362d392647cb02",
+        "type": "ui_ui_control",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "events": "change",
+        "x": 1020,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "731ef741b8ff2701",
+        "type": "template",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "plain",
+        "template": "{\n    \"tab\": \"Application_demo\"\n}",
+        "output": "json",
+        "x": 880,
+        "y": 1180,
+        "wires": [
+            [
+                "81362d392647cb02"
+            ]
+        ]
+    },
+    {
+        "id": "8772f0679f63c2fe",
+        "type": "switch",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "property": "payload['state']",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "success",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "success",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 1180,
+        "wires": [
+            [
+                "731ef741b8ff2701",
+                "0b070929d1e4a841"
+            ],
+            [
+                "0de1fe0b4842a343"
+            ]
+        ]
+    },
+    {
+        "id": "0de1fe0b4842a343",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "サインインを再度求めるトースト",
+        "func": "msg.payload = \"It may wrong...\"\nmsg.topic = \"Oops! That password or username doesn’t look right. Try again?\"\nmsg.type = \"info\"\nmsg.timeout = 5\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1220,
+        "wires": [
+            [
+                "ebeb4b75e012038e"
+            ]
+        ]
+    },
+    {
+        "id": "ebeb4b75e012038e",
+        "type": "ui_toast",
+        "z": "6f824968e1c74319",
+        "position": "top right",
+        "displayTime": "",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "msg.notify-toast",
+        "topic": "",
+        "name": "ワンタイムキー再入力を催促するトースト",
+        "x": 1290,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "0e60ee3011123f31",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "アプリ画面（demo）",
+        "info": "",
+        "x": 180,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "2d30262a6b09d3ce",
+        "type": "ui_template",
+        "z": "6f824968e1c74319",
+        "group": "81b1bdc3.9a60b8",
+        "name": "CSS-Basics",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    * {\n        background: none;\n        background-repeat: no-repeat;\n    }\n\n    root, a, button, p, div {\n        -webkit-user-select: none !important;\n    }\n\n    ui-card-panel {\n        background-color: rgba(250, 250, 250, 0.2) !important;\n        border: none !important;\n        border-radius: 10px !important;\n        /*        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19) !important;\n    */\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel>div>md-card {\n        background: none !important;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel button {\n        background: none !important;\n    }\n\n    p.nr-dashboard-cardtitle {\n        text-align: center !important;\n    }\n\n\n    button, html, input, select, textarea {\n        font-family: Roboto, Helvetica Neue, sans-serif;\n    }\n\n    md-toolbar {\n        background: none !important;\n    }\n\n    md-sidenav {\n        background: linear-gradient(120deg, rgba(40, 42, 49, 0.90) 20%, rgba(47, 49, 56, 0.90) 80%) !important;\n    }\n\n    md-card.nr-dashboard-button * {\n        background: none !important;\n        box-shadow: none !important;\n    }\n\n    md-card.nr-dashboard-template * {\n        background: none !important;\n    }\n\n\n    body {\n        background: transparent;\n        \n        background: linear-gradient(\n            45deg,\n            #9900d3,\n            #4b0082,\n            #8a2be2,\n            #4169e1,\n            #ffff00\n        );\n        \n        width: 100%;\n        height: 100vh;\n        background-size: 200% 200% !important;/*サイズを大きくひきのばす*/\n        background-position: 0% 50%;\n        animation: bggradient 10s ease infinite;\n        \n        -webkit-touch-callout: none !important;\n        color: #ffffff !important;\n        padding-top:5px !important;\n    }\n        \n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {}\n    \n    @keyframes bggradient{\n        0% {\n            background-position: 0% 50%;\n        }\n        25%{\n            background-position: 50% 100%;\n        }\n        50% {\n            background-position: 100% 50%;\n        }\n        75%{\n            background-position: 50% 100%;\n        }\n        100% {\n            background-position: 0% 50%;\n        }\n    }\n    \n    .nr-dashboard-cardpanel > p {\n        max-height: 32px;\n        min-height: 32px;\n        margin-left: 6px !important;\n        margin-right: 6px !important;\n        margin-top: 10px;\n        margin-bottom: 12px;\n        font-weight: 500;\n        font-size: larger;\n    }\n\n    button.md-raised.nr-dashboard-form-button.md-button.md-ink-ripple {\n        border-radius: 20px;\n    }\n    \n    .nr-dashboard-template {\n        padding: 0px;\n    }\n\n    .test {\n        text-align: center;\n    }\n    \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 630,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2154e513f25e6859",
+        "type": "template",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<style>\n    * {\n        background: none;\n        background-repeat: no-repeat;\n    }\n\n    root,\n    a,\n    button,\n    p,\n    div {\n        -webkit-user-select: none !important;\n    }\n\n    ui-card-panel {\n        background-color: rgba(250, 250, 250, 0.2) !important;\n        border: none !important;\n        border-radius: 10px !important;\n        /*        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19) !important;\n    */\n    }\n    \n    p.nr-dashboard-cardtitle {\n        text-align: center !important;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel>div>md-card {\n        background: none !important;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel button {\n        background: none !important;\n    }\n\n    md-toolbar {\n        background: none !important;\n    }\n\n    md-sidenav {\n        background: linear-gradient(120deg, rgba(40, 42, 49, 0.90) 20%, rgba(47, 49, 56, 0.90) 80%) !important;\n    }\n\n    md-card.nr-dashboard-button * {\n        background: none !important;\n        box-shadow: none !important;\n    }\n\n    md-card.nr-dashboard-template * {\n        background: none !important;\n    }\n\n\n    body {\n        background: transparent;\n\n        background: linear-gradient(\n            45deg,\n            {{payload_1}},\n            {{payload_2}},\n            {{payload_3}},\n            {{payload_4}}\n        );\n\n        width: 100%;\n        height: 100vh;\n        background-size: 200% 200% !important;\n        /*サイズを大きくひきのばす*/\n        background-position: 0% 50%;\n        animation: bggradient 30s ease infinite;\n\n        -webkit-touch-callout: none !important;\n        color: #ffffff !important;\n        padding-top: 5px !important;\n    }\n\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {}\n\n    @keyframes bggradient {\n        0% {\n            background-position: 0% 50%;\n        }\n\n        25% {\n            background-position: 50% 100%;\n        }\n\n        50% {\n            background-position: 100% 50%;\n        }\n\n        75% {\n            background-position: 50% 100%;\n        }\n\n        100% {\n            background-position: 0% 50%;\n        }\n    }\n    .nr-dashboard-cardpanel > p {\n        max-height: 32px;\n        min-height: 32px;\n        margin-left: 6px !important;\n        margin-right: 6px !important;\n        margin-top: 10px;\n        margin-bottom: 12px;\n        font-weight: 500;\n        font-size: larger;\n    }\n\n    button.md-raised.nr-dashboard-form-button.md-button.md-ink-ripple {\n        border-radius: 20px;\n    }\n\n\n    \n</style>",
+        "output": "str",
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "2d30262a6b09d3ce"
+            ]
+        ]
+    },
+    {
+        "id": "b3cf63b30f53f366",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 7",
+        "func": "const pallet = '0123456789ABCDEF'\n\nfunction colorget(){\n    const color_array = [\n    String(Math.floor(Math.random() * 16)),\n    String(Math.floor(Math.random() * 16)),\n    String(Math.floor(Math.random() * 16)),\n    String(Math.floor(Math.random() * 16)),\n    String(Math.floor(Math.random() * 16)),\n    String(Math.floor(Math.random() * 16))\n    ]\n\n    let color = \"#\"\n\n    color_array.forEach(function(item) {\n        color += pallet[item]\n        item = null\n    });\n\n    return color;\n}\n\n\nmsg.payload_1 = colorget()\nmsg.payload_2 = colorget()\nmsg.payload_3 = colorget()\nmsg.payload_4 = colorget()\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 160,
+        "wires": [
+            [
+                "2154e513f25e6859"
+            ]
+        ]
+    },
+    {
+        "id": "7579173786f917fa",
+        "type": "inject",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "b3cf63b30f53f366"
+            ]
+        ]
+    },
+    {
+        "id": "2d8f146add1c0ea3",
+        "type": "ui_button",
+        "z": "6f824968e1c74319",
+        "name": "backgroundColorandom",
+        "group": "782eb5cf9ba31cd5",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "BGColor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1400,
+        "wires": [
+            [
+                "15dbf96cfeadfad5"
+            ]
+        ]
+    },
+    {
+        "id": "fa2fac737f9587cc",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "link in 1",
+        "links": [
+            "15dbf96cfeadfad5"
+        ],
+        "x": 185,
+        "y": 220,
+        "wires": [
+            [
+                "b3cf63b30f53f366"
+            ]
+        ]
+    },
+    {
+        "id": "15dbf96cfeadfad5",
+        "type": "link out",
+        "z": "6f824968e1c74319",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "fa2fac737f9587cc"
+        ],
+        "x": 385,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "4452023b3c88ab43",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 8",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/getAirocoData\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = {\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1400,
+        "wires": [
+            [
+                "43a4da6ff40deb31"
+            ]
+        ]
+    },
+    {
+        "id": "9f995efc8d395521",
+        "type": "inject",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 1400,
+        "wires": [
+            [
+                "4452023b3c88ab43"
+            ]
+        ]
+    },
+    {
+        "id": "43a4da6ff40deb31",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 850,
+        "y": 1400,
+        "wires": [
+            [
+                "82ad24983697234c",
+                "1e50f5c2de5d9f42"
+            ]
+        ]
+    },
+    {
+        "id": "82ad24983697234c",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "requestの中身を確認",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "e7d288e06009f4b3",
+        "type": "ui_gauge",
+        "z": "6f824968e1c74319",
+        "name": "co2",
+        "group": "6229a5b6866e8146",
+        "order": 1,
+        "width": 3,
+        "height": 2,
+        "gtype": "compass",
+        "title": "",
+        "label": "",
+        "format": "{{value}}㏙",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1470,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "9425e2c9b1639a45",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "co2に加工",
+        "func": "msg.payload = msg.payload['co2']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 1440,
+        "wires": [
+            [
+                "e7d288e06009f4b3",
+                "732cc05c92798d7a"
+            ]
+        ]
+    },
+    {
+        "id": "93e457f88f0a6abe",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "humに加工",
+        "func": "msg.payload = msg.payload['humidity']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 1520,
+        "wires": [
+            [
+                "a00eb56b8e55cf13",
+                "57c4c340de85c8fa"
+            ]
+        ]
+    },
+    {
+        "id": "063abbfba78bae22",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "tmpに加工",
+        "func": "msg.payload = msg.payload['temperature']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 1600,
+        "wires": [
+            [
+                "8895cc6ff53c8417",
+                "24e07a3f9f770c4b"
+            ]
+        ]
+    },
+    {
+        "id": "a00eb56b8e55cf13",
+        "type": "ui_gauge",
+        "z": "6f824968e1c74319",
+        "name": "humidity",
+        "group": "fcd2a9620a5003c7",
+        "order": 1,
+        "width": 3,
+        "height": 2,
+        "gtype": "compass",
+        "title": "",
+        "label": "",
+        "format": "{{value | number:1}}%",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1480,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "8895cc6ff53c8417",
+        "type": "ui_gauge",
+        "z": "6f824968e1c74319",
+        "name": "temperature",
+        "group": "5b7313b354518b0e",
+        "order": 1,
+        "width": 3,
+        "height": 2,
+        "gtype": "compass",
+        "title": "",
+        "label": "",
+        "format": "{{value | number:1}}℃",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1490,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "732cc05c92798d7a",
+        "type": "ui_chart",
+        "z": "6f824968e1c74319",
+        "name": "co2_chart",
+        "group": "6229a5b6866e8146",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "monotone",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ffffff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df80",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1480,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24e07a3f9f770c4b",
+        "type": "ui_chart",
+        "z": "6f824968e1c74319",
+        "name": "temperature chart",
+        "group": "5b7313b354518b0e",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ffffff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1510,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57c4c340de85c8fa",
+        "type": "ui_chart",
+        "z": "6f824968e1c74319",
+        "name": "humidity chart",
+        "group": "fcd2a9620a5003c7",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ffffff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1500,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "850e905a1ec06691",
+        "type": "ui_button",
+        "z": "6f824968e1c74319",
+        "name": "water_button",
+        "group": "0f4037e93a3d0626",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "feed water",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1540,
+        "wires": [
+            [
+                "71835e64f909180f"
+            ]
+        ]
+    },
+    {
+        "id": "86e0f0ab28285d35",
+        "type": "ui_button",
+        "z": "6f824968e1c74319",
+        "name": "fertilizer_button",
+        "group": "805e488a9f943934",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "feed fertilizer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 1620,
+        "wires": [
+            [
+                "43cf4ebc2dc2bc5f"
+            ]
+        ]
+    },
+    {
+        "id": "43cf4ebc2dc2bc5f",
+        "type": "ui_gauge",
+        "z": "6f824968e1c74319",
+        "name": "fertilizer_gauge",
+        "group": "805e488a9f943934",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#2ead14"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 400,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "f079fe76e4ec4645",
+        "type": "ui_text",
+        "z": "6f824968e1c74319",
+        "group": "8b61b37f135cdb1e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 610,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "115be89f34140b35",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "背景色の変化",
+        "info": "",
+        "x": 190,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "6dad564095c054cb",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "データベースからデータ取得",
+        "info": "",
+        "x": 540,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "7ce18d74323731b3",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "水やり機能と肥料機能（未実装）",
+        "info": "",
+        "x": 250,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "a0f8742db2253306",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "マリーゴールド表示",
+        "info": "",
+        "x": 210,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "eb5fed0aefcfdca8",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "マリーゴールドの状態表示",
+        "info": "",
+        "x": 610,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "e1c3a98c8f8f1f7f",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "ユーザー情報の表示",
+        "info": "",
+        "x": 210,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "15bc7f3d99b1dd21",
+        "type": "ui_button",
+        "z": "6f824968e1c74319",
+        "name": "user name",
+        "group": "e77efef5c32cb49f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{topic}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "account_circle",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85d3cd928495d8a9",
+        "type": "link out",
+        "z": "6f824968e1c74319",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "0085e2d92f13b880",
+            "4349f741de86e29b"
+        ],
+        "x": 995,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "0085e2d92f13b880",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "link in 2",
+        "links": [
+            "85d3cd928495d8a9"
+        ],
+        "x": 135,
+        "y": 1900,
+        "wires": [
+            [
+                "15bc7f3d99b1dd21",
+                "5fad1b92300f68db"
+            ]
+        ]
+    },
+    {
+        "id": "0b070929d1e4a841",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 9",
+        "func": "msg.payload = msg.user\nmsg.topic = msg.user\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1140,
+        "wires": [
+            [
+                "85d3cd928495d8a9",
+                "ae86ca1fc013a3fc"
+            ]
+        ]
+    },
+    {
+        "id": "ae86ca1fc013a3fc",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "5fad1b92300f68db",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/getflowerData\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = {\n    'username': msg.payload\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 1940,
+        "wires": [
+            [
+                "f8f0d3fe3079fb93",
+                "60e5c60dd65dad6b"
+            ]
+        ]
+    },
+    {
+        "id": "60e5c60dd65dad6b",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 1900,
+        "wires": [
+            [
+                "8d1cf917a5d17e77",
+                "2a102dae2ae0a399",
+                "35a01ea126017033",
+                "b191336edba81c1f"
+            ]
+        ]
+    },
+    {
+        "id": "f8f0d3fe3079fb93",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "8d1cf917a5d17e77",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "1e50f5c2de5d9f42",
+        "type": "switch",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "property": "payload['state']",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "success",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "success",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1030,
+        "y": 1420,
+        "wires": [
+            [
+                "9425e2c9b1639a45",
+                "93e457f88f0a6abe",
+                "063abbfba78bae22"
+            ],
+            [
+                "be3efcf69bf12173"
+            ]
+        ]
+    },
+    {
+        "id": "be3efcf69bf12173",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "失敗原因の確認",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "2a102dae2ae0a399",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 11",
+        "func": "msg.payload = msg.payload['fertilizer']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 2020,
+        "wires": [
+            [
+                "35cfa3b84aee23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b5ea479b030c08f2",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "water注入",
+        "links": [
+            "2c51094856275bb4"
+        ],
+        "x": 265,
+        "y": 1500,
+        "wires": [
+            [
+                "71835e64f909180f"
+            ]
+        ]
+    },
+    {
+        "id": "da6d5cd4bc427470",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "fertilizer注入",
+        "links": [
+            "35cfa3b84aee23e8"
+        ],
+        "x": 265,
+        "y": 1580,
+        "wires": [
+            [
+                "43cf4ebc2dc2bc5f"
+            ]
+        ]
+    },
+    {
+        "id": "35cfa3b84aee23e8",
+        "type": "link out",
+        "z": "6f824968e1c74319",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "da6d5cd4bc427470"
+        ],
+        "x": 775,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "35a01ea126017033",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 12",
+        "func": "msg.payload = msg.payload['water']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1980,
+        "wires": [
+            [
+                "2c51094856275bb4"
+            ]
+        ]
+    },
+    {
+        "id": "2c51094856275bb4",
+        "type": "link out",
+        "z": "6f824968e1c74319",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "b5ea479b030c08f2"
+        ],
+        "x": 775,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "71835e64f909180f",
+        "type": "ui_gauge",
+        "z": "6f824968e1c74319",
+        "name": "fertilizer_gauge",
+        "group": "0f4037e93a3d0626",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#2ead14"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 400,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "75737e077c9e0d06",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "花の状態を注入",
+        "links": [
+            "d70ca092f2d66a46"
+        ],
+        "x": 515,
+        "y": 1720,
+        "wires": [
+            [
+                "f079fe76e4ec4645"
+            ]
+        ]
+    },
+    {
+        "id": "b191336edba81c1f",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 13",
+        "func": "msg.payload = msg.payload['state']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1940,
+        "wires": [
+            [
+                "d70ca092f2d66a46"
+            ]
+        ]
+    },
+    {
+        "id": "d70ca092f2d66a46",
+        "type": "link out",
+        "z": "6f824968e1c74319",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "75737e077c9e0d06"
+        ],
+        "x": 775,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "dff9dd90c0558153",
+        "type": "file",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "filename": "test.png",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "binary",
+        "x": 600,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ee898eafd446f25",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "requestの前処理",
+        "func": "msg.method = \"GET\";\nmsg.url = \"http://backend:5000/getBase64\";\nmsg.headers = {\n    \"Content-Type\": \"application/json\"\n}\nmsg.payload = {\n    imageIndex : \"test_flower\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a8ff59e9ab39427",
+        "type": "http request",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08c013b685abfbd4",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 15",
+        "func": "msg.filename = \"test.png\"\nmsg.payload = msg.payload[\"base64_image\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4349f741de86e29b",
+        "type": "link in",
+        "z": "6f824968e1c74319",
+        "name": "link in 3",
+        "links": [
+            "85d3cd928495d8a9"
+        ],
+        "x": 135,
+        "y": 2100,
+        "wires": [
+            [
+                "4ee898eafd446f25"
+            ]
+        ]
+    },
+    {
+        "id": "94fb03b2348dd243",
+        "type": "comment",
+        "z": "6f824968e1c74319",
+        "name": "base64をdecode",
+        "info": "",
+        "x": 200,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "9474f17777cdce5a",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "911dc03184cfc6ba",
+        "type": "http in",
+        "z": "6f824968e1c74319",
+        "name": "HTML_サインイン",
+        "url": "/signin.html",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 2440,
+        "wires": [
+            [
+                "5e05a441f7b3dc3e"
+            ]
+        ]
+    },
+    {
+        "id": "04677bf5e9d341aa",
+        "type": "template",
+        "z": "6f824968e1c74319",
+        "name": "signin.html",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>サインインページ</title>\n    <link rel=\"stylesheet\" href=\"/sign_styles.css\">\n</head>\n<body>\n    <div class=\"container\">\n        <h2>サインイン</h2>\n        <form id=\"signinForm\">\n            <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"メールアドレス\" required>\n            <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"パスワード\" required>\n            <button type=\"submit\">ログイン</button>\n        </form>\n        <a href=\"signup.html\" class=\"signup-link\">サインアップはこちら</a>\n    </div>\n\n    <script src=\"signin_script.js\"></script>\n</body>\n</html>",
+        "output": "str",
+        "x": 650,
+        "y": 2440,
+        "wires": [
+            [
+                "ed2ad62db4d7c19d"
+            ]
+        ]
+    },
+    {
+        "id": "ed2ad62db4d7c19d",
+        "type": "http response",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "5e05a441f7b3dc3e",
+        "type": "function",
+        "z": "6f824968e1c74319",
+        "name": "function 16",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2440,
+        "wires": [
+            [
+                "04677bf5e9d341aa"
+            ]
+        ]
+    },
+    {
+        "id": "845004a5864f07d3",
+        "type": "ui_template",
+        "z": "6f824968e1c74319",
+        "group": "3baf9f54646316e4",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<div class=\"test\">\n    <img src=\"http://localhost:1880/image/modified_flower_800.png\" alt=\"msg.image\" id=\"flower\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a53f82f490e27ce2",
+        "type": "base64",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 620,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5a5fa653f1d31ab",
+        "type": "debug",
+        "z": "6f824968e1c74319",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "2309a1953a2f8426",
+        "type": "image viewer",
+        "z": "6f824968e1c74319",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 750,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93096444f9c86e84",
+        "type": "comment",
+        "z": "2cb46b7dcb250e20",
+        "name": "成長判定",
+        "info": "",
+        "x": 220,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "a997c233793e0d38",
+        "type": "comment",
+        "z": "2cb46b7dcb250e20",
+        "name": "メイン画面の設定",
+        "info": "",
+        "x": 250,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "24199022a93d698a",
+        "type": "function",
+        "z": "2cb46b7dcb250e20",
+        "name": "function 2",
+        "func": "var data = JSON.parse(msg.payload); \nmsg.AirocoData = data;\nmsg.co2 = data[0].co2; \nmsg.temperature = data[0].temperature + '';\nmsg.relativeHumidity = data[0].relativeHumidity;\nmsg.sensorName = data[0].sensorName;\n\n// ここで水と肥料の値を取得\nmsg.water = Math.round(Math.random() * 100);\nmsg.fertilizer = Math.round(Math.random() * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 380,
+        "wires": [
+            [
+                "a959497206dc7106",
+                "fdad950688d99d62",
+                "73ef22e75a6bcd19",
+                "5dc3b1de4313e8de",
+                "c898c05a376ccbf5",
+                "81ca57860a45f036"
+            ]
+        ]
+    },
+    {
+        "id": "22d22897cdf7da15",
+        "type": "http request",
+        "z": "2cb46b7dcb250e20",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://proxy.cep-hd-dlp.chuden.co.jp/data-n8suh89sqhcjo5g5/data-api/latest?id=CgETViZ2&subscription-key=0e35a874f02a4887adc1ed0b2561f645",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "24199022a93d698a"
+            ]
+        ]
+    },
+    {
+        "id": "558a26a6b5c350d2",
+        "type": "inject",
+        "z": "2cb46b7dcb250e20",
+        "name": "一分おきに送信",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [
+                "22d22897cdf7da15"
+            ]
+        ]
+    },
+    {
+        "id": "a959497206dc7106",
+        "type": "ui_text",
+        "z": "2cb46b7dcb250e20",
+        "group": "de50acef303d3449",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "教室名",
+        "label": "センサー",
+        "format": "{{msg.sensorName}}",
+        "layout": "row-spread",
+        "className": "my-custom-info-text",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fdad950688d99d62",
+        "type": "ui_text",
+        "z": "2cb46b7dcb250e20",
+        "group": "de50acef303d3449",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "co2",
+        "label": "co2濃度",
+        "format": "{{msg.co2}}",
+        "layout": "row-spread",
+        "className": "my-custom-info-text",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "73ef22e75a6bcd19",
+        "type": "ui_text",
+        "z": "2cb46b7dcb250e20",
+        "group": "de50acef303d3449",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "気温",
+        "label": "気温",
+        "format": "{{msg.temperature}}",
+        "layout": "row-spread",
+        "className": "my-custom-info-text",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5dc3b1de4313e8de",
+        "type": "ui_text",
+        "z": "2cb46b7dcb250e20",
+        "group": "de50acef303d3449",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "湿度",
+        "label": "湿度",
+        "format": "{{msg.relativeHumidity}}",
+        "layout": "row-spread",
+        "className": "my-custom-info-text",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c898c05a376ccbf5",
+        "type": "ui_gauge",
+        "z": "2cb46b7dcb250e20",
+        "name": "肥料のグラフ",
+        "group": "a979cdc731524e1e",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "肥料",
+        "label": "%",
+        "format": "{{msg.fertilizer}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ff0000",
+            "#ffff00",
+            "#00ff00"
+        ],
+        "seg1": "25",
+        "seg2": "50",
+        "diff": false,
+        "className": "my-custom-gauge",
+        "x": 860,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c99dbbd4b2e70c4c",
+        "type": "function",
+        "z": "2cb46b7dcb250e20",
+        "name": "function 3",
+        "func": "if (msg.payload === \"water\") {\n    msg.water = 100;\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "81ca57860a45f036"
+            ]
+        ]
+    },
+    {
+        "id": "267eb5e56ef1394f",
+        "type": "function",
+        "z": "2cb46b7dcb250e20",
+        "name": "function 4",
+        "func": "if (msg.payload === \"fertilizer\") {\n    msg.fertilizer = 100;\n}\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "c898c05a376ccbf5"
+            ]
+        ]
+    },
+    {
+        "id": "ac3a7208d2b4fb06",
+        "type": "ui_button",
+        "z": "2cb46b7dcb250e20",
+        "name": "肥料のボタン",
+        "group": "6f7363d1eb243981",
+        "order": 3,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "label": "肥料をあげる",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "",
+        "className": "my-custom-button",
+        "icon": "",
+        "payload": "fertilizer",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "267eb5e56ef1394f"
+            ]
+        ]
+    },
+    {
+        "id": "81ca57860a45f036",
+        "type": "ui_gauge",
+        "z": "2cb46b7dcb250e20",
+        "name": "水のグラフ",
+        "group": "a979cdc731524e1e",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "土の水分量",
+        "label": "%",
+        "format": "{{msg.water}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ff0000",
+            "#ffff00",
+            "#00ff00"
+        ],
+        "seg1": "25",
+        "seg2": "50",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8858de7b81d689db",
+        "type": "ui_template",
+        "z": "2cb46b7dcb250e20",
+        "group": "6f7363d1eb243981",
+        "name": "Custom CSS",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "format": "<style>\n    .my-custom-info {\n        background-color: #ffffff !important;\n        border-radius: 30px !important;\n        border: 1px solid #000000;\n        padding: 20px;\n    }\n\n    .my-custom-info-text {\n        background-color: transparent !important;\n        font-weight: bold;\n    }\n\n    .my-custom-mainGroup {\n        border-radius: 20px !important;\n    }\n\n    .my-custom-button {\n        padding: 20px;\n    }\n</style>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2122376f4d345133",
+        "type": "ui_button",
+        "z": "2cb46b7dcb250e20",
+        "name": "水のボタン",
+        "group": "6f7363d1eb243981",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "label": "水をあげる",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "",
+        "className": "my-custom-button",
+        "icon": "",
+        "payload": "water",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "c99dbbd4b2e70c4c"
+            ]
+        ]
+    },
+    {
+        "id": "e84f54a1edfca8d6",
+        "type": "ui_template",
+        "z": "2cb46b7dcb250e20",
+        "group": "e1ecfd4f17851d36",
+        "name": "イメージ画像",
+        "order": 7,
+        "width": 10,
+        "height": 6,
+        "format": "<div style=\"text-align: center;\">\n    <img src=\"/sprout.png\" alt=\"Sample Image\" style=\"max-width: 100%; height: auto;\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "my-custom-image",
+        "x": 850,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f66be136c79b4b25",
+        "type": "ui_template",
+        "z": "2cb46b7dcb250e20",
+        "group": "6f7363d1eb243981",
+        "name": "Spacer(Center right)",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 280,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64a79cecc3274c7d",
+        "type": "ui_template",
+        "z": "2cb46b7dcb250e20",
+        "group": "8bb1975bf94f662d",
+        "name": "Spacer (Head right)",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 270,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33383de57d652d4f",
+        "type": "ui_template",
+        "z": "2cb46b7dcb250e20",
+        "group": "a979cdc731524e1e",
+        "name": "Spacer(Left)",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 250,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2ccae00.2d335",
+        "type": "inject",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "none",
+        "x": 790,
+        "y": 460,
+        "wires": [
+            [
+                "e03cae10.1fc35"
+            ]
+        ]
+    },
+    {
+        "id": "b778ef09.48871",
+        "type": "base64",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 1065.5,
+        "y": 521,
+        "wires": [
+            [
+                "6295d1b1.9d6a3",
+                "46b597ba.b94a68"
+            ]
+        ]
+    },
+    {
+        "id": "6295d1b1.9d6a3",
+        "type": "debug",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 1264,
+        "y": 521,
+        "wires": []
+    },
+    {
+        "id": "ead9e7c9.152618",
+        "type": "debug",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 1264,
+        "y": 601,
+        "wires": []
+    },
+    {
+        "id": "46b597ba.b94a68",
+        "type": "base64",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 1065.5,
+        "y": 601,
+        "wires": [
+            [
+                "ead9e7c9.152618"
+            ]
+        ]
+    },
+    {
+        "id": "1c9124e9.e36edb",
+        "type": "inject",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2429,
+        "y": 474,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48a892ea.b7576c",
+        "type": "debug",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 2825,
+        "y": 571,
+        "wires": []
+    },
+    {
+        "id": "e03cae10.1fc35",
+        "type": "function",
+        "z": "eaf4ab20fd4f0552",
+        "name": "",
+        "func": "msg.payload = Buffer.from(\"12345\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 904,
+        "y": 521,
+        "wires": [
+            [
+                "b778ef09.48871"
+            ]
+        ]
+    }
+]
